@@ -5,8 +5,15 @@
 	<title>Geoloc</title>
 
 	<script>
+
+		function displayPosition(position)
+		{
+			console.log(position);
+			document.getElementById('position').innerHTML = "Latitude : "+position.coords.latitude+"<br/>Longitude : "+position.coords.longitude+"<br/>altitude : "+position.coords.altitude;
+		}
+
 		if(navigator.geolocation){
-			alert('L\'API de géolocalisation en HTML 5 est disponible');
+			navigator.geolocation.getCurrentPosition(displayPosition);
 		}
 		else{
 			alert('Votre navigateur ne prend pas en compte la géolocalisation HTML 5.')
@@ -15,6 +22,6 @@
 
 </head>
 <body>
-	
+	<div id="position"></div>
 </body>
 </html>
