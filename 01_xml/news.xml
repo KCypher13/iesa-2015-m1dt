@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newss>
+	<news>
+		<title>News du jour</title>
+		<description>Description de la news</description>
+		<link>Lien de le news</link>
+		<items>
+			<item>
+				<title>Titre de l'item</title>
+				<description>Description de l'item</description>
+				<link>Lien de l'item</link>
+			</item>
+		</items>
+	</news>
+
+	<news>
+		<title>News du jour</title>
+		<description>Description de la news</description>
+		<link>Lien de le news</link>
+	</news>
+</newss>
