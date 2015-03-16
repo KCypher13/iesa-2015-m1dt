@@ -3,25 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Geoloc</title>
+	<link rel="stylesheet" href="loader.css">
 
 	<script>
 
 		function displayPosition(position)
 		{
-			console.log(position);
-			document.getElementById('position').innerHTML = "Latitude : "+position.coords.latitude+"<br/>Longitude : "+position.coords.longitude+"<br/>altitude : "+position.coords.altitude;
+			document.getElementById('loader').style.display = 'none';
+			var input ='';
+			for(key in position.coords){
+				input += key+' : '+position.coords[key]+'<br/>';
+			}
+			document.getElementById('position').innerHTML = input;
 		}
 
 		if(navigator.geolocation){
 			navigator.geolocation.getCurrentPosition(displayPosition);
 		}
 		else{
-			alert('Votre navigateur ne prend pas en compte la géolocalisation HTML 5.')
+			alert('Votre navigateur ne prend pas en compte la géolocalisation HTML 5.');
 		}
 	</script>
 
+	<style>
+	</style>
+
 </head>
 <body>
+	<div id="loader"></div>
 	<div id="position"></div>
 </body>
 </html>
