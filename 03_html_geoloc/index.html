@@ -12,13 +12,23 @@
 			document.getElementById('loader').style.display = 'none';
 			var input ='';
 			for(key in position.coords){
-				input += key+' : '+position.coords[key]+'<br/>';
+				if(position.coords[key])
+					input += key+' : '+position.coords[key]+'<br/>';
 			}
 			document.getElementById('position').innerHTML = input;
 		}
 
+		function checkForSpeed(position)
+		{
+			if(position.coords.speed == null){
+				console.log('clearWatch');
+				navigator.geolocation.clearWatch(geoloc);
+			}
+				displayPosition(position);
+		}
+
 		if(navigator.geolocation){
-			navigator.geolocation.getCurrentPosition(displayPosition);
+			var geoloc = navigator.geolocation.watchPosition(checkForSpeed);
 		}
 		else{
 			alert('Votre navigateur ne prend pas en compte la géolocalisation HTML 5.');
