@@ -18,6 +18,12 @@
 			document.getElementById('position').innerHTML = input;
 		}
 
+		function displayError(err){
+			if(err){
+				alert(err.message);
+			}
+		}
+
 		function checkForSpeed(position)
 		{
 			if(position.coords.speed == null){
@@ -28,7 +34,7 @@
 		}
 
 		if(navigator.geolocation){
-			var geoloc = navigator.geolocation.watchPosition(checkForSpeed);
+			var geoloc = navigator.geolocation.watchPosition(checkForSpeed, displayError);
 		}
 		else{
 			alert('Votre navigateur ne prend pas en compte la géolocalisation HTML 5.');
