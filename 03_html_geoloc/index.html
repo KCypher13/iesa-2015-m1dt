@@ -4,8 +4,21 @@
 	<meta charset="UTF-8">
 	<title>Geoloc</title>
 	<link rel="stylesheet" href="loader.css">
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
 
 	<script>
+
+		function displayMap(position){
+
+			var centerPos = new google.maps.LatLng(position.coords['latitude'],position.coords['longitude']);
+			var optionsGmaps = {
+				center: centerPos,
+				mapTypeID: google.maps.MapTypeId.ROADMAP,
+				zoom: 15
+			};
+			var map = new google.maps.Map(document.getElementById('map'), optionsGmaps);
+			var marker = new google.maps.Marker({ position: centerPos, map: map });
+		}
 
 		function displayPosition(position)
 		{
@@ -16,6 +29,8 @@
 					input += key+' : '+position.coords[key]+'<br/>';
 			}
 			document.getElementById('position').innerHTML = input;
+			
+			displayMap(position);
 		}
 
 		function displayerr(err){
@@ -62,5 +77,6 @@
 <body>
 	<div id="loader"></div>
 	<div id="position"></div>
+	<div id="map" style="width:500px;height:500px"></div>
 </body>
 </html>
