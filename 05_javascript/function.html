@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>function</title>
+	
+	<script>
+		function add(one, two){
+			return one+two;
+		}
+		function minus(one, two){
+			return one-two;
+		}
+		function multiply(one, two){
+			return one*two;
+		}
+		function devide(one, two){
+			return one/two;
+		}
+
+		function calcul(one, two, type){
+			switch(type){
+				case add:
+					return add(one, two);
+					break;
+				case minus:
+					return minus(one, two);
+					break;
+				case multiply:
+					return multiply(one, two);
+					break;
+				case devide:
+					return devide(one, two);
+					break;
+			}
+		}
+		
+		console.log(calcul(2,3,devide));
+
+	</script>
+
+
+</head>
+<body>
+	
+</body>
+</html>
