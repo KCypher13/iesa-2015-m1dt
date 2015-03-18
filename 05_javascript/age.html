@@ -8,20 +8,17 @@
 	
 	<script>
 		while(true){
-			var age = prompt('quel age ?');;
-			var hasBasket = confirm('Has basket ?');;
+			var age = prompt('quel age ?');
+			var hasBasket = confirm('Has basket ?');
 
-			if(hasBasket){
-			  alert('non tu as des baskets');;
-			}
-			else if(age < 18){
-			  alert('non');;
+			if(age < 18 || hasBasket){
+			  alert('non');
 			}
 			else if(age <= 21){
-			  alert('montre moi tes papiers');;
+			  alert('montre moi tes papiers');
 			}
 			else{
-			  alert('OK');;
+			  alert('OK');
 			}
 		}
 	</script>
