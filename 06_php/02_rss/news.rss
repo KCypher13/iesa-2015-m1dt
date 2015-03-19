@@ -1,2633 +1,817 @@
-
-	<item>
-		<title>Quand Comodo donne ses certificats SSL à n’importe qui</title>
-		<link>http://korben.info/quand-comodo-donne-ses-certificats-ssl-a-nimporte-qui.html</link>
-	<comments>
-		http://korben.info/quand-comodo-donne-ses-certificats-ssl-a-nimporte-qui.html#comments
-	</comments>
-	<pubDate>Thu, 19 Mar 2015 11:34:55 +0000</pubDate>
-	<dc:creator>
-		<![CDATA[ Korben ]]>
-	</dc:creator>
-	<category>
-		<![CDATA[ Sécurité ]]>
-	</category>
-	<guid isPermaLink="false">http://korben.info/?p=59777</guid>
-	<description>
-		<![CDATA[
-<p>
-		Au cas où vous en douteriez encore, les Finlandais sont pleins d'humour. Dernier exemple en date avec cet informaticien finlandais qui s'est amusé, il y a 2 mois, à enregistrer une adresse hostmaster@live.fi sur le service de messagerie Live de Microsoft, pour faire une bonne blague. Avec cette adresse à l'allure très corporate "Microsoft", il [&#8230;]
-	</p>
-	<p>
-		Cet article merveilleux et sans aucun égal intitulé :
-		<a rel="nofollow" href="http://korben.info/quand-comodo-donne-ses-certificats-ssl-a-nimporte-qui.html">Quand Comodo donne ses certificats SSL à n&rsquo;importe qui</a>
-		; a été publié sur
-		<a rel="nofollow" href="http://korben.info">Korben</a>
-		, le seul site qui t'aime plus fort que tes parents.
-	</p>
-	]]>
-</description>
-<content:encoded>
-	<![CDATA[
-<p>
-	Au cas où vous en douteriez encore, les Finlandais sont pleins d'humour. Dernier exemple en date avec cet informaticien finlandais qui s'est amusé, il y a 2 mois, à enregistrer une adresse hostmaster@live.fi sur le service de messagerie Live de Microsoft, pour faire une bonne blague.
-</p>
-<p>
-	Avec cette adresse à l'allure très corporate "Microsoft", il a alors écrit à Comodo, la société qui délivre des certificats de sécurité SSL / TLS qui sont reconnus officiellement par les navigateurs, pour demander de lui générer un certificat "Microsoft" officiel.
-</p>
-<p>
-	Et comme chez Comodo, c'est la confiance qui prime, il a bien reçu ce certificat par mail. Tout simplement et sans jamais fournir de pièce d'identité.
-</p>
-<p>
-	Bon, pour lui c'était une bonne blague, mais si ça avait été un escroc, il aurait pu monter sans aucun problème des sites de phishing qui seraient passés sans souci en HTTPS avec certificat officiel Microsoft. Il aurait pu alors collecter des données d'utilisateur tranquillement.
-</p>
-<p style="text-align: center;">
-	<a href="http://korben.info/wp-content/uploads/2015/03/certif.jpg">
-		<img class="aligncenter size-full wp-image-59778" src="//korben.info/wp-content/uploads/2015/03/certif.jpg" alt="certif" width="433" height="564" />
-	</a>
-</p>
-<p>
-	Après cette aventure, il a contacté Microsoft et l'Autorité finlandaise en charge des communications pour raconter son histoire, mais personne ne lui a répondu avant ce jeudi, où Microsoft l'a remercié, après avoir évidemment bloqué l'email hostmaster@live.fi et révoqué le certificat en question.
-</p>
-<p>Comme quoi, parfois il suffit de demander poliment :-)</p>
-<p>
-	<a href="http://www.tivi.fi/Kaikki_uutiset/2015-03-18/A-Finnish-man-created-this-simple-email-account---and-received-Microsofts-security-certificate-3217662.html">Source</a>
-</p>
-<p>
-	Cet article merveilleux et sans aucun égal intitulé :
-	<a rel="nofollow" href="http://korben.info/quand-comodo-donne-ses-certificats-ssl-a-nimporte-qui.html">Quand Comodo donne ses certificats SSL à n&rsquo;importe qui</a>
-	; a été publié sur
-	<a rel="nofollow" href="http://korben.info">Korben</a>
-	, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/quand-comodo-donne-ses-certificats-ssl-a-nimporte-qui.html/feed
-</wfw:commentRss>
-<slash:comments>3</slash:comments>
-</item>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>Presse-Citron</title>
+<atom:link href="http://www.presse-citron.net/feed/" rel="self" type="application/rss+xml"/>
+<link>http://www.presse-citron.net</link>
+<description>L'actualité du Web et des nouvelles technologies</description>
+<lastBuildDate>Thu, 19 Mar 2015 15:29:37 +0000</lastBuildDate>
+<language>fr-FR</language>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<generator>http://wordpress.org/?v=3.9.3</generator>
 <item>
-<title>Télécharger des bandes dessinées gratuitement</title>
+<title>
+Google reconnait des erreurs de communication avec ses Google Glass
+</title>
 <link>
-http://korben.info/telecharger-des-bandes-dessinees-gratuitement.html
+http://www.presse-citron.net/google-x-reconnait-des-erreurs-avec-les-google-glass/
 </link>
 <comments>
-http://korben.info/telecharger-des-bandes-dessinees-gratuitement.html#comments
+http://www.presse-citron.net/google-x-reconnait-des-erreurs-avec-les-google-glass/#comments
 </comments>
-<pubDate>Thu, 19 Mar 2015 09:29:04 +0000</pubDate>
+<pubDate>Thu, 19 Mar 2015 15:13:52 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Manu ]]>
 </dc:creator>
 <category>
-<![CDATA[ Copyright ]]>
+<![CDATA[ Objets connectés ]]>
 </category>
 <category>
-<![CDATA[ Ebook ]]>
+<![CDATA[ arret google glass ]]>
 </category>
 <category>
-<![CDATA[ Libre ]]>
+<![CDATA[ erreurs google glass ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59769</guid>
+<category>
+<![CDATA[ Google Glass ]]>
+</category>
+<category>
+<![CDATA[ Google X ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129156</guid>
 <description>
 <![CDATA[
-<p>
-Aujourd'hui c'est le retour du Jeudi... L'occasion pour moi de vous parler à nouveau de l'initiative Pirate Ta BD qui propose à des auteurs de bande dessinée de se faire connaitre en proposant au format numérique et sous licence Creative Commons, leur oeuvre. Si ça vous plait, évidemment, vous faites un dons à l'auteur de [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/telecharger-des-bandes-dessinees-gratuitement.html">Télécharger des bandes dessinées gratuitement</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Google X, via son directeur de laboratoire a reconnu des erreurs avec le projet Google Glass dont la commercialisation a été arrêtée.
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Aujourd'hui c'est le retour du Jeudi... L'occasion pour moi de vous parler à nouveau de l'initiative <strong>Pirate Ta BD</strong>
-qui propose à des auteurs de bande dessinée de se faire connaitre en proposant au format numérique et sous licence Creative Commons, leur oeuvre.
-</p>
-<p>
-Si ça vo
-]]>
-<![CDATA[
-us plait, évidemment, vous faites un dons à l'auteur de la BD.</p>
-<p>
-Et pour vous montrer que c'est du bon, je vous mets
-<a href="https://bdzmag.actualitte.com/Je-veux-etre-un-Jedi-Opus-1">le lien</a>
-pour récupérer la BD " <em>Je veux être un Jedi</em>
-". (D'où ma phrase d'accroche... hahaha, oui je sais, je suis formidable !).
-</p>
-<p>
-Pour les lire, comme elles sont au format CBR, il vous faudra un lecteur de CBR (appelé aussi lecteur de Comics par la plupart des gens). Je vous mets une petite liste à la fin de cet article.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/b.d.zmag_1349776490_uttini_volume_1_page_01-03c19-85a8a.jpg">
-<img class="aligncenter size-full wp-image-59770" src="//korben.info/wp-content/uploads/2015/03/b.d.zmag_1349776490_uttini_volume_1_page_01-03c19-85a8a.jpg" alt="b.d.zmag_1349776490_uttini_volume_1_page_01-03c19-85a8a" width="566" height="800" />
-</a>
-</p>
-<p>
-Il y a plusieurs tomes pour celle du Jedi, mais
-<a href="https://bdzmag.actualitte.com/-BDz-pirate-ta-BD-">vous pouvez aussi découvrir les autres auteurs</a>
-... Attention pour les plus prudes, la dernière BD rentrée dans la collection est une BD qui parle "un peu" de cul ;-).
-</p>
-<p>Le reste c'est de l'humour, de la SF, du policier...etc.</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/pirate.jpg">
-<img class="aligncenter size-new-size wp-image-59771" src="//korben.info/wp-content/uploads/2015/03/pirate-650x485.jpg" alt="pirate" width="650" height="485" />
-</a>
-</p>
-<p style="text-align: left;">Bonne lecture à tous !</p>
-<p style="text-align: left;">
-ps : Lecteurs de CBR
-<a href="http://www.yacreader.com">pour OSX</a>
-, pour
-<a href="http://comicrack.cyolito.com/">Windows</a>
-, pour
-<a href="http://sourceforge.net/p/mcomix/wiki/Home/">Linux</a>
-, pour
-<a href="https://play.google.com/store/apps/details?id=com.aerilys.acr.android">Android</a>
-, pour
-<a href="https://chrome.google.com/webstore/detail/astonishing-comic-reader/lnbamhdhohempcpilbfmgbdlgefalanl/reviews">Chrome</a>
-, pour
-<a href="http://apps.microsoft.com/windows/en-us/app/astonishing-comic-reader/8c4ed1a8-4ca4-4bba-967b-8d7ce352b82c">Windows 8</a>
-(app).
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/telecharger-des-bandes-dessinees-gratuitement.html">Télécharger des bandes dessinées gratuitement</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
 <wfw:commentRss>
-http://korben.info/telecharger-des-bandes-dessinees-gratuitement.html/feed
+http://www.presse-citron.net/google-x-reconnait-des-erreurs-avec-les-google-glass/feed/
 </wfw:commentRss>
-<slash:comments>1</slash:comments>
-</item>
-<item>
-<title>Voyagez (en ligne) au centre de la Terre</title>
-<link>
-http://korben.info/voyagez-en-ligne-au-centre-de-la-terre.html
-</link>
-<comments>
-http://korben.info/voyagez-en-ligne-au-centre-de-la-terre.html#comments
-</comments>
-<pubDate>Wed, 18 Mar 2015 23:15:36 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ service web ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59757</guid>
-<description>
-<![CDATA[
-<p>
-Vous êtes vous déjà demandé ce que ça ferait de plonger jusqu'au fond du plus profond des océans ? Ou de creuser un tunnel jusqu'au centre de la Terre ? Moi oui. Souvent même. Ça me vient de Jules Verne évidemment, mais aussi de pas mal de films de SF et d'un peu de Terraria... [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/voyagez-en-ligne-au-centre-de-la-terre.html">Voyagez (en ligne) au centre de la Terre</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Vous êtes vous déjà demandé ce que ça ferait de plonger jusqu'au fond du plus profond des océans ? Ou de creuser un tunnel jusqu'au centre de la Terre ?
-</p>
-<p>Moi oui. Souvent même.</p>
-<p>
-Ça me vient de Jules Verne évidemment, mais aussi de pas mal de films de SF et d'un peu de Terraria... ;-)
-</p>
-<p>
-Quoi qu'il en soit, grâce à ce site réalisé par la BBC, vous allez pouvoir explorer les entrailles de la Terre et apprendre plein de trucs amusants. 1 pixel équivaut à un centimètre dans la vie réelle, donc si vous y allez au clavier, vous allez mettre un certain temps ;-) En scrollant comme un malade avec la souris par contre, ça va plus vite.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/oyage.png">
-<img class="aligncenter size-full wp-image-59758" src="//korben.info/wp-content/uploads/2015/03/oyage.png" alt="oyage" width="650" height="298" />
-</a>
-</p>
-<p>
-Mais l'heure est à la découverte alors pas besoin de speeder.
-</p>
-<p>
-<a href="http://www.bbc.com/future/bespoke/story/20150306-journey-to-the-centre-of-earth/index.html">À découvrir ici</a>
-.
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/voyagez-en-ligne-au-centre-de-la-terre.html">Voyagez (en ligne) au centre de la Terre</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/voyagez-en-ligne-au-centre-de-la-terre.html/feed
-</wfw:commentRss>
-<slash:comments>9</slash:comments>
-</item>
-<item>
-<title>Il y aura bien un Patriot Act à la Française</title>
-<link>
-http://korben.info/il-y-aura-bien-un-patriot-act-a-la-francaise.html
-</link>
-<comments>
-http://korben.info/il-y-aura-bien-un-patriot-act-a-la-francaise.html#comments
-</comments>
-<pubDate>Wed, 18 Mar 2015 11:05:16 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Société ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59726</guid>
-<description>
-<![CDATA[
-<p>
-Axelle Lemaire, la Sécrétaire d'État chargée du Numérique nous l'avait pourtant promis, à l'Assemblée Nationale, le 14 janvier dernier : Il ne s’agit pas d’adopter un Patriot Act à la française Mais il semblerait qu'elle ne "pèse pas assez dans le milieu", comme on dit chez les rappeurs, pour se faire entendre et pour pouvoir tenir ses [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/il-y-aura-bien-un-patriot-act-a-la-francaise.html">Il y aura bien un Patriot Act à la Française</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p> <strong>Axelle Lemaire</strong>
-, la Sécrétaire d'État chargée du Numérique nous l'avait pourtant promis, à l'Assemblée Nationale, le 14 janvier dernier :
-</p>
-<blockquote>
-<p> <em>Il ne s’agit pas d’adopter un Patriot Act à la française</em>
-</p>
-</blockquote>
-<p>
-Mais il semblerait qu'elle ne "
-<em>pèse pas assez dans le milieu</em>
-", comme on dit chez les rappeurs, pour se faire entendre et pour pouvoir tenir ses promesses.
-</p>
-<p>
-Les autres gogols du gouvernement en ont décidé autrement et ont profité des attentats contre Charlie Hebdo pour réaliser ce qui les faisait mouiller depuis un moment :
-<strong>La censure administrative</strong>
-.
-</p>
-<p>
-Pour rappel, la censure administrative, c'est ce qui permet à des gros frustrés de censurer n'importe quoi en ligne, qui dirait un truc qui les dérange. Alors bien sûr, pour le moment, c'est nouveau tout ça...  Faut se donner de la contenance, il faut bomber le torse et montrer qu'on est sérieux quand il s'agit de terrorisme. Un stagiaire à l'Élysée a donc récupéré les 5 premiers du Top Wikio Islamiste-Barbu-Bronies et les a communiqués à nos amis (Coucou !) de l'OCLCTIC qui les a bloqués.
-</p>
-<p>
-Si vous utilisez les DNS gouvernementaux (comprenez ceux de vos FAI), vous avez donc pu apercevoir cette main rouge immonde qui nous explique en substance que "
-<em>Papa a mis un filtre parental sur ton ordinateur</em>
-".
-</p>
-<p>
-<img class=" size-full wp-image-59727 aligncenter" src="//korben.info/wp-content/uploads/2015/03/mainrouge.jpg" alt="mainrouge" width="533" height="267" />
-</p>
-<p>
-Bon, très bien tout ça. Oui sauf que d'après les experts, les sites en question ne sont pas les plus virulents ni les plus fréquentés. Pire, le site Islamic-News dont tout le monde parle serait simplement un blog tenu par un mec tout seul qui donnerait son opinion sans jamais faire d'apologie de quoi que ce soit. En tout cas, c'est comme ça qu'il présente le truc à visage quasi découvert chez mes copains de Numerama et je vous invite à lire sa
-<a href="http://www.numerama.com/magazine/32516-moi-censure-par-la-france-pour-mes-opinions-politiques.html">lettre ouverte.</a>
-</p>
-<p>Petit extrait :</p>
-<blockquote>
-<p>
-<em>"Et non monsieur Cazeneuve, aucun groupe n’animait le site islamic-news.info. Aucun groupe ni organisation proche de l’État islamique ou d’Al-Qaïda ne l’animait, ni ne le finançait. Le site était dirigé par un seul homme, qui vit en Europe et qui est inscrit légalement sur les registres d’OVH et qui paie avec son propre compte en banque le serveur qu’il loue auprès du numéro 1 français. Aucun cryptage de données n’est utilisé, aucune combine, absolument rien, tout est transparent, car il n’y a rien à cacher. Je n’avais besoin que de 50 euros par mois pour faire tourner le site et lui donner une allure professionnelle, avec un certain succès d’ailleurs."</em> 
-</p>
-</blockquote>
-<p>
-Bon, le site est HS donc difficile à vérifier, mais mon copain Oussama ne le connait pas, alors je me dis que ça ne doit pas vraiment non plus "peser dans le milieu". C'est con, y'aurait eu qu'un JUGE pour nous dire VRAIMENT de quoi il en retournait... On aurait peut-être même pu mettre le webmaster en prison pour apologie du terrorisme. Mais faut croire qu’il ne doit pas y avoir assez de matière pour l'inculper.
-</p>
-<p>Alors à votre avis, quelle va être la prochaine étape ?</p>
-<p>
-Et bien Cazeneuve, Valls et les copines ont prévu tout un arsenal de mesure dans la nouvelle loi sur le Renseignement... On n'a pas encore le texte officiel, mais d'après
-<a href="https://twitter.com/reesmarc">Marc Rees</a>
-qui a assisté à la conf de presse, le gouvernement souhaite mettre en place chez les FAI des boites noires qui feront vraisemblablement du DPI (mais on verra) et qui analysera les données des internautes pour y détecter grâce à des patterns (des schémas comportementaux), des comportements déviants, comme les terroristes juniors qui se documentent sur Wikipedia ou les énervés du campingaz qui commandent trop de bouteilles sur Amazon. J'ai lu aussi que ce serait aussi aux géants du net (Facebook, Google...etc.) de mettre en place ce genre de "radars à terroristes" sur leurs propres services.
-</p>
-<p>
-Vu la gueule des sites qu'ils ont bloqués jusqu'à présent, j'éprouve quand même quelques réserves sur la qualité et la pertinence de leurs schémas comportementaux en question.
-</p>
-<p>
-RASSUREZ-VOUS, les données analysées seront anonymisées, MAIS s’il y a des doutes, l'anonymat sera levé. Autant dire que des "données anonymisées sur lesquels ont peut lever l'anonymat", ce n'est pas ce qu'on peut appeler des données VRAIMENT anonymisées. C'est pour moi, un joli effort d'embrouillage de neuneus.
-</p>
-<p>
-Autre truc amusant, ils veulent obtenir des sociétés tierces (services mails, services de VoIP...etc.) les clés de déchiffrement pour lire TOUS les messages en clair. Ahahahahaha ! Et accéder aux données de connexions en temps réel. Et infiltrer les réseaux sociaux. Et géolocaliser votre téléphone. Et installer des IMSI Catcher dans les lieux publics pour choper toutes les communications mobiles des gens dans une zone donnée...etc.
-</p>
-<p>
-Petit bonus, le keylogger (Detect Keylogger) est aussi de retour. Il pourra s'inviter chez vous, discrètement, pour collecter ce que vous tapez sur votre clavier. Même délire avec les trackers GPS planqués sur votre voiture, ou les micros et caméras espions installés chez vous.
-</p>
-<p>
-Oui, mais vous allez me dire "
-<em>Ok, mais on ne risque rien si on n'a rien à se reprocher</em>
-".
-</p>
-<p>
-Je ne sais plus si je vous l'ai dit, mais
-<strong>tout ceci sera réalisable sans juge</strong>
-. Comment connaitre alors, la légitimité d'une surveillance ou d'une captation de vos données ? C'est secret et ça se fera, ou pas, en fonction des désirs et des humeurs du Ministre de l'Intérieur ou de 4 teubés dans une commission croissant/café.
-</p>
-<p>
-Comment savoir qu'une demande de surveillance par un policier est légitime quand on n'a pas tous les éléments en main ? Il est évident que la plupart des demandes de surveillances vont aboutir. C'est logique. Il vaut mieux espionner des tas d'innocents que de passer à côté de dangereux terroristes surfant sur Google.
-</p>
-<p>
-Il n'y aucune garantie, ni aucun garde fou à ce délire sécuritaire et quand ce sera adopté, ce sera un drame pour notre pays.
-<a href="http://www.lemonde.fr/pixels/article/2015/03/18/les-critiques-de-la-cnil-contre-le-projet-de-loi-sur-le-renseignement_4595839_4408996.html">Même la CNIL flippe sa mère</a>
-.
-</p>
-<p>
-Et pour faire passer la pilule, les porteurs de ce projet de loi, n'ont trouvé de mieux que cette justification : "
-<em>Oui, mais on le faisait déjà tout ça. C'était illégal, maintenant c'est encadré. Rohrohroh</em> 
-".
-</p>
-<p>
-La vérité c'est que ça va vraiment changer la donne pour les FAI et les services en ligne et que ça va ouvrir des portes immenses à la surveillance de masse. La durée de conservation de ces données passera de 1 an à 5 ans. Suffit qu'on bascule un jour sous un autre régime un peu plus nazillon et s'en est fini pour nous (Godwin achievement !). C'est peut être un détail pour certain, mais rien n'est prévu, non plus, dans cette loi, pour protéger ou mieux encadrer certaines professions comme les journalistes ou les avocats qui pourraient faire l'objet de surveillance abusive pour des motifs qu'on devine facilement.
-</p>
-<p>
-Axelle Lemaire, dis-moi ce que nous pouvons faire pour rendre la raison à tous ces fous qui sont tes collègues ? Que peux-tu faire pour au moins tenter de tenir ta promesse ? Car le Patriot Act à la Française est bien en train d'arriver.
-</p>
-<p>
-Sachez enfin que pour sauver les apparences, il est quand même prévu que vous puissiez en tant que citoyen, vérifier la légalité d'un dispositif mis en place pour vous surveiller. Mais ça, c'est sous peine que vous le découvriez un jour. Ahahahah.
-</p>
-<p>
-Alors que faire concrètement pour éviter de se faire espionner par un policier voyeur en manque ? Pas grand-chose malheureusement. Aller dans un pays qui respecte la vie privée des gens ? Manifester en masse pour sa vie privée comme on l'a fait il y a quelques mois pour sa liberté d'expression (Oh Wait...) ? Ou chiffrer et décentraliser toutes ces communications en ligne en passant par des outils qui restent sous le radar ? C'est compliqué, c'est relou, mais finalement, que ça soit à cause de la NSA ou à cause de ce gouvernement de tarés, on devra tous y passer si on tient à conserver notre liberté intellectuelle.
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/il-y-aura-bien-un-patriot-act-a-la-francaise.html">Il y aura bien un Patriot Act à la Française</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/il-y-aura-bien-un-patriot-act-a-la-francaise.html/feed
-</wfw:commentRss>
-<slash:comments>64</slash:comments>
-</item>
-<item>
-<title>Trouver la bibliothèque ou le framework de vos rêves</title>
-<link>
-http://korben.info/trouver-la-bibliotheque-ou-le-framework-de-vos-reves.html
-</link>
-<comments>
-http://korben.info/trouver-la-bibliotheque-ou-le-framework-de-vos-reves.html#comments
-</comments>
-<pubDate>Wed, 18 Mar 2015 09:07:39 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Développement ]]>
-</category>
-<category>
-<![CDATA[ service web ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59719</guid>
-<description>
-<![CDATA[
-<p>
-Si vous développez, vous savez surement qu'une bonne bibliothèque ou un bon framework peut faire la différence. Oui, je sais, un bon clavier et beaucoup de café peut AUSSI faire la différence, mais restez concentrés voulez-vous :-) Alors, comment trouver chaussure à son pied, pour laisser votre talent s'exprimer à son maximum tout en étant [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/trouver-la-bibliotheque-ou-le-framework-de-vos-reves.html">Trouver la bibliothèque ou le framework de vos rêves</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Si vous développez, vous savez surement qu'une bonne bibliothèque ou un bon framework peut faire la différence. Oui, je sais, un bon clavier et beaucoup de café peut AUSSI faire la différence, mais restez concentrés voulez-vous :-)
-</p>
-<p>
-Alors, comment trouver chaussure à son pied, pour laisser votre talent s'exprimer à son maximum tout en étant sûr que la licence de cette bibliothèque, de ce module ou de ce framwork est libre ?
-</p>
-<p>
-Et bien il suffit de vous rendre sur le site
-<a href="http://libraries.io/">Libraries.io</a>
-, qui propose un annuaire et un moteur de recherche de plus de 729 000 projets open sources pour plus de 24 langages de dev différents.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/libraries2.jpg">
-<img class="aligncenter size-new-size wp-image-59721" src="//korben.info/wp-content/uploads/2015/03/libraries2-650x528.jpg" alt="libraries2" width="650" height="528" />
-</a>
-</p>
-<p>Voilà c'est tout et c'est DÉJÀ PAS SI MAL !</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/trouver-la-bibliotheque-ou-le-framework-de-vos-reves.html">Trouver la bibliothèque ou le framework de vos rêves</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/trouver-la-bibliotheque-ou-le-framework-de-vos-reves.html/feed
-</wfw:commentRss>
-<slash:comments>9</slash:comments>
-</item>
-<item>
-<title>Yahoo Mail propose du chiffrement de bout en bout</title>
-<link>http://korben.info/chiffrer-yahoo-mail.html</link>
-<comments>http://korben.info/chiffrer-yahoo-mail.html#comments</comments>
-<pubDate>Tue, 17 Mar 2015 09:55:39 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Infos ]]>
-</category>
-<category>
-<![CDATA[ Navigateur ]]>
-</category>
-<category>
-<![CDATA[ Sécurité ]]>
-</category>
-<category>
-<![CDATA[ service web ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59685</guid>
-<description>
-<![CDATA[
-<p>
-Si vous faites partie des 15 personnes qui utilisent encore Yahoo Mail, j'ai une excellente nouvelle pour vous. Ces derniers viennent de mettre en ligne une extension Chrome qui permet de faire du chiffrement end-to-end, c'est à dire, de bout en bout. Bon, ça reste du code forké de Google, qui tourne sur le navigateur [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/chiffrer-yahoo-mail.html">Yahoo Mail propose du chiffrement de bout en bout</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Si vous faites partie des 15 personnes qui utilisent encore Yahoo Mail, j'ai une excellente nouvelle pour vous. Ces derniers viennent de mettre en ligne
-<strong>une extension Chrome</strong>
-qui permet de faire du chiffrement end-to-end, c'est à dire, de bout en bout.
-</p>
-<p>
-Bon, ça reste du
-<a href="http://korben.info/google-se-lance-chiffrement-bout-en-bout-messages.html">code forké de Google</a>
-, qui tourne sur le navigateur Chrome, pour accéder à une messagerie en ligne américaine, donc je ne suis pas "certain" que ça soit vraiment NSA-Proof (Ahaha). Mais au moins, si vous vous faites poutrer votre boite mail, le méchant hacker ne pourra pas lire votre correspondance privée ;-)
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/quand-google-essaye-de-recuperer-les-internautes-utilisant-firefox.gif">
-<img class="aligncenter size-new-size wp-image-59711" src="//korben.info/wp-content/uploads/2015/03/quand-google-essaye-de-recuperer-les-internautes-utilisant-firefox-650x444.gif" alt="E2E_animation" width="650" height="444" />
-</a>
-</p>
-<p>
-Pour le moment, l'extension n'est pas encore disponible sur le store de Chrome mais vous pouvez vous faire une petite compilation maison
-<a href="https://github.com/yahoo/end-to-end">à partir des sources</a>
-. Tout est très bien expliqué.
-</p>
-<p>
-<a href="http://yahoo.tumblr.com/post/113708033335/user-focused-security-end-to-end-encryption">source</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/chiffrer-yahoo-mail.html">Yahoo Mail propose du chiffrement de bout en bout</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/chiffrer-yahoo-mail.html/feed</wfw:commentRss>
-<slash:comments>4</slash:comments>
-</item>
-<item>
-<title>Quand Google essaye de récupérer les internautes utilisant Firefox</title> 
-<link>
-http://korben.info/quand-google-essaye-de-recuperer-les-internautes-utilisant-firefox.html
-</link>
-<comments>
-http://korben.info/quand-google-essaye-de-recuperer-les-internautes-utilisant-firefox.html#comments
-</comments>
-<pubDate>Tue, 17 Mar 2015 09:15:42 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ service web ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59707</guid>
-<description>
-<![CDATA[
-<p>
-Ils sont marrants chez Google... Depuis que Mozilla Firefox a divorcé en abandonnant leur moteur de recherche par défaut pour passer sur Yahoo, nos amis de chez Mountain View cherchent des solutions pour récupérer ces internautes perdus. Actuellement, il font quelques tests avec des bannières qui s'affichent sur les pages de résultats, lorsque l'internaute "Firefox" [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/quand-google-essaye-de-recuperer-les-internautes-utilisant-firefox.html">
-Quand Google essaye de récupérer les internautes utilisant Firefox
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Ils sont marrants chez Google... Depuis que Mozilla Firefox a divorcé en abandonnant leur moteur de recherche par défaut pour passer sur Yahoo, nos amis de chez Mountain View cherchent des solutions pour récupérer ces internautes perdus.
-</p>
-<p>
-Actuellement, il font quelques tests avec des
-<a
-]]>
-<![CDATA[
-href="http://searchengineland.com/google-is-practically-begging-firefox-users-to-switch-their-default-search-engine-216770">bannières</a>
-qui s'affichent sur les pages de résultats, lorsque l'internaute "Firefox" n'a pas Google comme moteur de recherche par défaut.
-</p>
-<p>
-<a href="http://korben.info/wp-content/uploads/2015/03/google-firefox-begging-switch-800.jpg">
-<img class="aligncenter size-new-size wp-image-59708" src="//korben.info/wp-content/uploads/2015/03/google-firefox-begging-switch-800-650x436.jpg" alt="google-firefox-begging-switch-800" width="650" height="436" />
-</a>
-</p>
-<p>
-<em>
-"S'il vous pléééé, j'ai besoin d'argent, j'ai besoin de nourrir mes employés avec des M&amp;M's. S'il vous pléééé, mettez Google comme moteur de recherche par défaut ou ma société va disparaitre et les gens vont se retrouver au chômage."
-</em>
-</p>
-<p>
-Depuis le mariage de Firefox avec Yahoo, ce dernier est passé (en novembre 2014) de 8,6% des requêtes de recherche à 10,9% (en janvier 2015), donc ça fait quand même un petit paquet d'internautes satisfaits de Yahoo.
-</p>
-<p>
-Alors pourquoi je me moque gentiment ? Et bien d'un côté Google agite les bras pour grapiller des internautes et de l'autre, il ne se donne plus la peine de sortir des mises à jour de Chrome sous Android 4.0 et inférieur. Encore un truc bien logique... Soit vous passez sur une version supérieure d'Android (en rachetant un smartphone ?), soit vous conservez un vieux navigateur (et les failles potentielles qui vont avec).
-</p>
-<p>
-C'est peut-être pour pousser les gens vers Lollipop (Android 5.0) mais ce que je constate, c'est que ça pousse surtout les internautes vers des navigateurs alternatifs à Chrome. Et à votre avis, lequel s'installe encore correctement jusqu'aux versions Android 2.3 ?
-</p>
-<p>
-<a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox</a>
-évidemment....
-</p>
-<p>&nbsp;</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/quand-google-essaye-de-recuperer-les-internautes-utilisant-firefox.html">
-Quand Google essaye de récupérer les internautes utilisant Firefox
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/quand-google-essaye-de-recuperer-les-internautes-utilisant-firefox.html/feed
-</wfw:commentRss>
-<slash:comments>46</slash:comments>
-</item>
-<item>
-<title>Planter Firefox en 1 click</title>
-<link>http://korben.info/planter-firefox-en-1-click.html</link>
-<comments>http://korben.info/planter-firefox-en-1-click.html#comments</comments>
-<pubDate>Tue, 17 Mar 2015 08:48:37 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Navigateur ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59704</guid>
-<description>
-<![CDATA[
-<p>
-Le JavaScript, parfois c'est un peu sauvage. Surtout quand on s'en sert pour bouffer toute la mémoire d'un navigateur et le faire planter. C'est ce que permet d'ailleurs CrashFirefox.com, un site qui redirige le navigateur vers le code JavaScript suivant : data:text/html,&#60;script&#62;location+=location+'A'.repeat(100000000);&#60;/script&#62; Et qui fait lamentablement planter toutes les versions de Firefox. Bref, si vous [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/planter-firefox-en-1-click.html">Planter Firefox en 1 click</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Le JavaScript, parfois c'est un peu sauvage. Surtout quand on s'en sert pour bouffer toute la mémoire d'un navigateur et le faire planter. C'est ce que permet d'ailleurs
-<strong>CrashFirefox.com</strong>
-, un site qui redirige le navigateur vers le code JavaScript suivant :
-</p>
-<blockquote>
-<p style="text-align: left;">
-data:text/html,&lt;script&gt;location+=location+'A'.repeat(100000000);&lt;/script&gt;
-</p>
-</blockquote>
-<p>
-Et qui fait lamentablement planter toutes les versions de Firefox. Bref, si vous voulez faire chier un collègue aujourd'hui, c'est le site qu'il vous faut !
-</p>
-<p>
-<a href="http://crashfirefox.com/">Ne cliquez pas ici si vous avez Firefox</a>
-sauf si vous voulez voir votre navigateur planter ;-)
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/planter-firefox-en-1-click.html">Planter Firefox en 1 click</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/planter-firefox-en-1-click.html/feed</wfw:commentRss>
-<slash:comments>54</slash:comments>
-</item>
-<item>
-<title>GetStrike – Un moteur + API pour chercher des torrents à la vitesse de l’éclair</title> 
-<link>http://korben.info/site-torrents.html</link>
-<comments>http://korben.info/site-torrents.html#comments</comments>
-<pubDate>Tue, 17 Mar 2015 08:06:53 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Download ]]>
-</category>
-<category>
-<![CDATA[ service web ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59644</guid>
-<description>
-<![CDATA[
-<p>
-Andrew Sampton est un développeur qui s'est dit que ça serait cool de mettre au point un moteur de recherche de torrent qui ne soit pas pollué par des résultats de merde ou des contenus dupliqués. Il a donc créé GetStrike qui permet de faire des recherches très rapides, épurées, avec des résultats de qualité. [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/site-torrents.html">
-GetStrike &#8211; Un moteur + API pour chercher des torrents à la vitesse de l&rsquo;éclair
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-<a href="http://twitter.com/andrewmd5">Andrew Sampton</a>
-est un développeur qui s'est dit que ça serait cool de mettre au point un moteur de recherche de torrent qui ne soit pas pollué par des résultats de merde ou des contenus dupliqués. Il a donc créé
-<a href="http://getstrike.net/torrents/">GetStrike</a>
-qui permet de faire des recherches très rapides, épurées, avec des résultats de qualité.
-</p>
-<p>
-<img class=" aligncenter" src="//korben.info/wp-content/uploads/2015/03/9bu2axx13.gif" alt="image" width="649" height="382" data-orig-width="1281" data-orig-height="754" />
-</p>
-<p>
-<img class=" aligncenter" src="//korben.info/wp-content/uploads/2015/03/41uoht413.gif" alt="image" width="649" height="397" data-orig-width="1281" data-orig-height="754" />
-</p>
-<p>
-Pour ne rien gâcher à l'affaire, il supprime les logs de son serveur toutes les 24h et ne conserve aucune donnée personnelle.
-</p>
-<p>C'est propre !</p>
-<p>
-Mais ce qui est intéressant surtout, c'est qu'
-<a href="http://getstrike.net/api/">il a mis au point une API</a>
-(+un wrapper Ruby) que chacun peut utiliser pour faire des recherches ou récupérer des infos sur les torrents de votre choix.
-</p>
-<p>
-Reste à voir maintenant si son projet saura supporter la charge (il s'est mangé une attaque DDOS hier) et tiendra sur le long terme face aux énervés.
-</p>
-<p>
-Et si vous vous dites que ce serait bien que ce truc soit diffusé en logiciel libre pour que vous puissiez l'héberger chez vous, je vous invite à jeter un oeil à cet autre projet baptisé
-<a href="http://korben.info/votre-site-de-torrents-perso-rien-qua-vous.html">BitCannon</a>
-.
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/site-torrents.html">
-GetStrike &#8211; Un moteur + API pour chercher des torrents à la vitesse de l&rsquo;éclair
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/site-torrents.html/feed</wfw:commentRss>
-<slash:comments>11</slash:comments>
-</item>
-<item>
-<title>Turc soufflé [Dessin de la semaine]</title>
-<link>http://korben.info/turc-souffle-dessin-de-la-semaine.html</link>
-<comments>
-http://korben.info/turc-souffle-dessin-de-la-semaine.html#comments
-</comments>
-<pubDate>Mon, 16 Mar 2015 21:23:46 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Dessin ]]>
-</category>
-<category>
-<![CDATA[ Infos ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59624</guid>
-<description>
-<![CDATA[
-<p>
-Alex, le dessinateur préféré des Français selon mon sondage intérieur, revient avec humour sur cette envie du Ministère de la Famille Turc de faire interdire le jeu Minecraft dans le pays. Pourquoi ? Et bien parce qu'il parait qu'il isole socialement les joueurs, qu'il peut amener les enfants qui y jouent à faire de cybermauvaises [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/turc-souffle-dessin-de-la-semaine.html">Turc soufflé [Dessin de la semaine]</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/contreminecraft.jpg">
-<img class="aligncenter size-full wp-image-59626" src="//korben.info/wp-content/uploads/2015/03/contreminecraft.jpg" alt="contreminecraft" width="650" height="585" />
-</a>
-</p>
-<p>
-<a href="http://alxroane.tumblr.com/">Alex</a>
-, le dessinateur préféré des Français selon mon sondage intérieur, revient avec humour sur cette envie du Ministère de la Famille Turc de faire interdire le jeu Minecraft dans le pays.
-</p>
-<p>
-Pourquoi ? Et bien parce qu'il parait qu'il isole socialement les joueurs, qu'il peut amener les enfants qui y jouent à faire de cybermauvaises rencontres, mais aussi à dépenser le pognon des parents dans leur dos et qu'en plus il est super violent.. Hé oui... Comme le jeu met en scène des animaux pouvant mourir et que ces animaux ne manifestent aucune réaction de souffrance ET BIEN des enfants pourraient penser que c'est normal de tuer ou torturer des petits animaux.
-</p>
-<p>
-Ahahahaha ! Pas besoin de jouer à un jeu pour savoir que les animaux ne ressentent pas la douleur. Si c'était le cas, vous pensez bien qu'on n'aurait plus de foie gras à manger, ni d'entrecôte bien saignante ;-)
-</p>
-<p>
-Rassurez-vous quand même, si vous êtes en Turquie,  il semblerait que le Ministre de la Famille n'ait pas ce pouvoir. Il peut juste sensibiliser l'opinion publique.
-</p>
-<p>OUF !</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/turc-souffle-dessin-de-la-semaine.html">Turc soufflé [Dessin de la semaine]</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/turc-souffle-dessin-de-la-semaine.html/feed
-</wfw:commentRss>
-<slash:comments>7</slash:comments>
+<slash:comments>0</slash:comments>
+Google X, via son directeur de laboratoire a reconnu des erreurs avec le projet Google Glass dont la commercialisation a été arrêtée.
 </item>
 <item>
 <title>
-Comment installer son serveur DNS en local quand on n’est pas un gros barbu
+Stockez de la musique sur Microsoft OneDrive via Xbox Music
 </title>
-<link>http://korben.info/installer-serveur-dns-unbound.html</link>
+<link>
+http://www.presse-citron.net/stockez-de-la-musique-sur-microsoft-onedrive-via-xbox-music/
+</link>
 <comments>
-http://korben.info/installer-serveur-dns-unbound.html#comments
+http://www.presse-citron.net/stockez-de-la-musique-sur-microsoft-onedrive-via-xbox-music/#comments
 </comments>
-<pubDate>Mon, 16 Mar 2015 13:08:03 +0000</pubDate>
+<pubDate>Thu, 19 Mar 2015 15:11:45 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Manu ]]>
 </dc:creator>
 <category>
-<![CDATA[ Administration Systeme Réseau ]]>
+<![CDATA[ Musiques ]]>
 </category>
 <category>
-<![CDATA[ Infos ]]>
+<![CDATA[ Microsoft ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59599</guid>
+<category>
+<![CDATA[ OneDrive ]]>
+</category>
+<category>
+<![CDATA[ stockage musique ]]>
+</category>
+<category>
+<![CDATA[ Xbox Music ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129122</guid>
 <description>
 <![CDATA[
-<p>
-La censure via les DNS est maintenant une réalité en France. Cette censure est inefficace et surtout facilement contournable. Il suffit de paramétrer un autre serveur DNS sur son ordinateur pour accéder aux sites bloqués. Et en surfant un peu, j'ai constaté que le serveur DNS préféré des Français est celui de Google (8.8.8.8 et [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/installer-serveur-dns-unbound.html">
-Comment installer son serveur DNS en local quand on n&rsquo;est pas un gros barbu
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Voilà une très bonne nouvelle pour les adeptes de musique utilisant la plateforme Xbox Music et conservant leurs fichiers sur OneDrive. Les deux services sont enfin connectés !
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-La censure via les DNS est maintenant une réalité en France. Cette censure est inefficace et surtout facilement contournable. Il suffit de paramétrer un autre serveur DNS sur son ordinateur pour accéder aux sites bloqués.
-</p>
-<p>
-Et en surfant un peu, j'ai constaté que le serveur DNS préféré des Français est celui de Google (8.8.8.8 et 8.8.4.4). Seulement voilà... Ca me dérange que tout le monde commence à utiliser les DNS de Google, car :
-</p>
-<ul>
-<li>
-1/ Google utilise ces données pour mieux nous traquer et cibler sa publicité.
-</li>
-<li>
-2/ Tout votre surf (en tout cas, le listing des sites que vous visitez) est maintenant en possession du gouvernement américain \o/.
-</li>
-</ul>
-<p>
-Alors que faire ? J'ai cherché la solution la plus simple pour être autonome avec ses DNS et je l'ai trouvée !!! Il ne s'agit pas de la solution la plus propre du monde et les nazis du DNS vont sûrement me tomber sur le paletot, mais, peu importe, ça fonctionne. Même si vous êtes débutant complet que vous n'y comprenez pas grand chose, il suffit de suivre ce tuto et ce sera bon. Un peu comme pour mon article sur comment
-<a href="http://korben.info/installer-openvpn.html">s'installer un serveur Open VPN les yeux fermés</a>
-.
-</p>
-<p>
-L'idée est simple... Puisque les DNS de nos FAI mentent et que ceux des US sont aux US, la solution la plus logique qui s'offre à nous est de faire tourner son propre serveur DNS en local. Je suis d'abord tombé sur
-<a href="http://www.simpledns.com/">SimpleDNS Plus</a>
-, un logiciel Windows qui permet de faire ça simplement sauf que c'est uniquement sous Windows et que c'est payant.
-</p>
-<p>
-Évidemment j'ai aussi pensé à
-<a href="https://www.isc.org/downloads/bind/">Bind</a>
-, mais la config est assez relou et vous serez plein à passer à côté. Puis en fouillant du côté de
-<a href="http://www.wikiwand.com/en/Comparison_of_DNS_server_software">Wikipedia</a>
-, j'ai vu qu'il existait un outil baptisé
-<strong>Unbound</strong>
-qui permet de faire ça aussi bien sous Linux que Windows et OSX.
-</p>
-<p>
-Surtout, la config de base est suffisante pour ne pas avoir à mettre les mains dans le cambouis. Alors concrètement, comment ça se passe ?
-</p>
-<p>
-D'abord, allez
-<a href="https://unbound.net/download.html">télécharger Unbound DNS ici</a>
-. Pour Windows c'est facile, car il s'agit d'un installateur tout ce qu'il y a de plus traditionnel. Pas la peine de réfléchir, allez jusqu'au bout de l'installation en laissant tous les paramètres par défaut.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/unbound.jpg">
-<img class="aligncenter size-full wp-image-59603" src="//korben.info/wp-content/uploads/2015/03/unbound.jpg" alt="unbound" width="499" height="387" />
-</a>
-</p>
-<p>
-Une fois terminé, vous pourrez voir dans la liste des services Windows (Démarrer -&gt; Exécuter -&gt; Services.msc), un service Unbound qui est censé être démarré et en démarrage automatique. Si ce n'est pas le cas, configurez-le pour que ça démarre automatiquement et lancez-le.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/services.jpg">
-<img class="aligncenter size-new-size wp-image-59601" src="//korben.info/wp-content/uploads/2015/03/services-650x476.jpg" alt="services" width="650" height="476" />
-</a>
-</p>
-<p style="text-align: left;">Et voilà c'est terminé !</p>
-<p style="text-align: left;">
-Maintenant il faut configurer votre Windows pour qu'il utilise votre DNS local dont l'adresse sera 127.0.0.1. Allez dans les paramètres du réseau et mettez 127.0.0.1 dans le champ DNS (et rien dans le second champ DNS). Et voilà...
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/dns.jpg">
-<img class="aligncenter size-full wp-image-59607" src="//korben.info/wp-content/uploads/2015/03/dns.jpg" alt="dns" width="650" height="491" />
-</a>
-</p>
-<p style="text-align: left;">
-Pour vérifier que ça fonctionne, lancez un terminal et entrez la commande
-<strong>nslookup</strong>
-. Et demandez-lui de résoudre certains domaines... Vous devriez voir quelque chose comme ça :
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/nslookup.jpg">
-<img class="aligncenter size-full wp-image-59604" src="//korben.info/wp-content/uploads/2015/03/nslookup.jpg" alt="nslookup" width="537" height="495" />
-</a>
-</p>
-<p style="text-align: left;">
-On voit bien ici que Twitter.com et Facebook.com sont résolues grâce au DNS local 127.0.0.1. Vous pouvez aussi utiliser la commande dig comme ceci :
-</p>
-<blockquote>
-<p style="text-align: left;">
-<em>dig korben.info @127.0.0.1</em>
-</p>
-</blockquote>
-<p>
-Enfin, lancez votre navigateur et entrez l'URL de votre choix. Il se peut que l'URL ne se résolve pas tout de suite. Insistez un peu, attendez un peu et ça devrait ensuite se résoudre. C'est normal que ça prenne un peu de temps, car c'est la première fois... Mais ensuite c'est mis en cache chez vous alors ce sera beaucoup plus rapide.
-</p>
-<p>
-Pour Linux et OSX, utilisez votre gestionnaire de paquets préféré (apt-get, macport...etc.) pour installer Unbound. Par exemple sous OSX, il faut entrer la ligne de commande :
-</p>
-<blockquote>
-<p>
-<em>sudo port install unbound</em>
-</p>
-</blockquote>
-<p>Initialisez ensuite le fichier de config comme ceci :</p>
-<blockquote>
-<p>
-<em>
-sudo cp /opt/local/etc/unbound/unbound.conf-dist /opt/local/etc/unbound/unbound.conf
-</em>
-</p>
-</blockquote>
-<p>
-Et dites à OSX de lancer Unbound automatiquement avant la commande suivante :
-</p>
-<blockquote>
-<p>
-<em>
-sudo launchctl load -w /Library/LaunchDaemons/org.macports.unbound.plist
-</em>
-</p>
-</blockquote>
-<p>
-Configurez ensuite votre système d'exploitation pour qu'il utilise votre DNS 127.0.0.1 et roule ma poule !
-</p>
-<p style="text-align: left;">
-<a href="http://korben.info/wp-content/uploads/2015/03/dns1.jpg">
-<img class="aligncenter size-new-size wp-image-59608" src="//korben.info/wp-content/uploads/2015/03/dns1-650x492.jpg" alt="dns" width="650" height="492" />
-</a>
-Si vous avez plusieurs machines à la maison, il est peut-être bon de faire la même chose sur la machine qui est toujours allumée (le serveur de la maison, un Raspberry Pi, votre NAS...etc.) et configurer Unbound (et votre firewall) pour qu'il autorise les connexions à partir d'autres ordinateurs sur le port 53.
-</p>
-<p style="text-align: left;">
-Modifiez le fichier conf de Unbound avec les paramètres suivants :
-</p>
-<blockquote>
-<p># provide Ipv4 service.</p>
-<p>interface: 0.0.0.0</p>
-<p>
-# provide ipv6 service, uncomment on Vista or if ipv6 is available.
-</p>
-<p>#interface: ::0</p>
-<p># allow access by the local network.</p>
-<p>access-control: 192.168.0.0/16 allow</p>
-<p># if you have Ipv6 enter your /64 as well and uncomment.</p>
-<p>#access-control: 2001:db8::/64 allow</p>
-</blockquote>
-<p>
-Ensuite, vous n'aurez plus qu'à configurer vos DNS avec l'IP de cette machine.
-</p>
-<p>
-Je ne rentre pas plus dans le détail, car après on peut aller vraiment loin avec Unbound, mais sachez que si vous voulez vous plonger un peu plus dans le paramétrage de ce serveur DNS, il y a tout ce qu'il faut
-<a href="https://unbound.net/documentation/index.html">comme documentation sur leur site.</a>
-</p>
-<p>
-Maintenant, vous n'avez plus aucune excuse pour ne pas le faire :-)
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/installer-serveur-dns-unbound.html">
-Comment installer son serveur DNS en local quand on n&rsquo;est pas un gros barbu
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/installer-serveur-dns-unbound.html/feed</wfw:commentRss>
-<slash:comments>56</slash:comments>
+<wfw:commentRss>
+http://www.presse-citron.net/stockez-de-la-musique-sur-microsoft-onedrive-via-xbox-music/feed/
+</wfw:commentRss>
+<slash:comments>0</slash:comments>
+Voilà une très bonne nouvelle pour les adeptes de musique utilisant la plateforme Xbox Music et conservant leurs fichiers sur OneDrive. Les deux services sont enfin connectés !
 </item>
 <item>
 <title>
-Lancer des applications Linux sous Windows avec Foreign LINUX
+La FNAC ouvre une première boutique dédiée aux objets connectés
 </title>
 <link>
-http://korben.info/lancer-des-applications-linux-sous-windows-avec-foreign-linux.html
+http://www.presse-citron.net/la-fnac-ouvre-une-premiere-boutique-dediee-aux-objets-connectes/
 </link>
 <comments>
-http://korben.info/lancer-des-applications-linux-sous-windows-avec-foreign-linux.html#comments
+http://www.presse-citron.net/la-fnac-ouvre-une-premiere-boutique-dediee-aux-objets-connectes/#comments
 </comments>
-<pubDate>Mon, 16 Mar 2015 10:37:01 +0000</pubDate>
+<pubDate>Thu, 19 Mar 2015 15:11:11 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Manu ]]>
 </dc:creator>
 <category>
-<![CDATA[ Infos ]]>
+<![CDATA[ Tech & Gadgets ]]>
 </category>
 <category>
-<![CDATA[ Linux ]]>
+<![CDATA[ Fnac ]]>
 </category>
 <category>
-<![CDATA[ Windows ]]>
+<![CDATA[ fnac-connect ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59593</guid>
+<category>
+<![CDATA[ objets connectés ]]>
+</category>
+<category>
+<![CDATA[ ouverture-boutique-angouleme ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129124</guid>
 <description>
 <![CDATA[
-<p>
-Si vous êtes sous Windows et que vous êtes joueur, voici Foreign LINUX, un outil qui permet de lancer des binaires Linux sous Windows. Pas besoin de modifier votre OS ou d'installer un driver, car contrairement à Wine ou Cygwin qui sont des émulateurs haut niveau (HLE), Foreign LINUX est un émulateur bas niveau (LLE). [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/lancer-des-applications-linux-sous-windows-avec-foreign-linux.html">
-Lancer des applications Linux sous Windows avec Foreign LINUX
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+La Fnac ouvre son tout premier magasin de 85 mètres carrés, entièrement spécialisé dans l’univers des objets connectés et de la téléphonie.
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Si vous êtes sous Windows et que vous êtes joueur, voici
-<strong>Foreign LINUX</strong>
-, un outil qui permet de lancer des binaires Linux sous Windows. Pas besoin de modifier votre OS ou d'installer un driver, car
-<a href="https://github.com/wishstudio/flinux/wiki/Comparison">contrairement</a>
-à Wine ou Cygwin qui sont des émulateurs haut niveau (HLE), Foreign LINUX est un émulateur bas niveau (LLE).
-</p>
-<p>
-L'équipe de dev de FL a implémenté les appels système du noyau et les a mappé avec ceux de Windows pour que les binaires puissent se lancer sous Windows. Évidemment, pour le moment, c'est encore très expérimental donc à vous de faire gaffe, mais il permet de lancer pour le moment des petits utilitaires comme nano, vim, bash, wget, curl, ssh, des jeux comme pacman, nethack et des outils de dev comme python ou gcc...etc.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/xeye.jpg">
-<img class="aligncenter size-full wp-image-59595" src="//korben.info/wp-content/uploads/2015/03/xeye.jpg" alt="xeye" width="650" height="565" />
-</a>
-</p>
-<p>
-Foreign Linux ne sait pas encore gérer les permissions sur les fichiers, la gestion de processus, le multitâche...etc. donc, les applications qui réclament ce genre de choses ne pourront pas fonctionner.
-</p>
-<p>
-À tester si vous êtes un peu bidouilleur.
-<a href="https://github.com/wishstudio/flinux">+ d'infos sur Foreign Linux ici.</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/lancer-des-applications-linux-sous-windows-avec-foreign-linux.html">
-Lancer des applications Linux sous Windows avec Foreign LINUX
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
 <wfw:commentRss>
-http://korben.info/lancer-des-applications-linux-sous-windows-avec-foreign-linux.html/feed
+http://www.presse-citron.net/la-fnac-ouvre-une-premiere-boutique-dediee-aux-objets-connectes/feed/
 </wfw:commentRss>
-<slash:comments>16</slash:comments>
-</item>
-<item>
-<title>UNICEF Heroes Day – La première course connectée du monde</title>
-<link>
-http://korben.info/unicef-heroes-day-la-premiere-course-connectee-du-monde.html
-</link>
-<comments>
-http://korben.info/unicef-heroes-day-la-premiere-course-connectee-du-monde.html#comments
-</comments>
-<pubDate>Fri, 13 Mar 2015 15:08:56 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Société ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59563</guid>
-<description>
-<![CDATA[
-<p>
-Kim, la plus geek et la plus fidèle lectrice de Korben.info m'a envoyé un petit mail bien sympathique pour que je relaie un événement sportif organisé par l'UNICEF. Afin de récolter des dons pour vacciner des ti n'enfants, l'UNICEF en partenariat avec la startup Running Heroes organise le 19 avril prochain la première course connectée [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/unicef-heroes-day-la-premiere-course-connectee-du-monde.html">
-UNICEF Heroes Day &#8211; La première course connectée du monde
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-<strong>Kim</strong>
-, la plus geek et la plus fidèle lectrice de Korben.info m'a envoyé un petit mail bien sympathique pour que je relaie un événement sportif organisé par l'
-<strong>UNICEF</strong>
-.
-</p>
-<p>
-Afin de récolter des dons pour vacciner des ti n'enfants, l'UNICEF en partenariat avec la startup
-<strong>Running Heroes</strong>
-organise le 19 avril prochain la première course connectée au monde. Pas besoin de vous lever tôt n'y d'aller à Paris, il suffit d'enfiler votre bracelet connecté ou de lancer votre application de tracking sportif (Nike+, Runtastic, Runkeeper, Garmin, Endomondo...etc) et d'aller courir 10 km en équipe de 4 entre 00h01 et 23h59, le dimanche 19 avril.
-</p>
-<p>
-C'est un genre de course décentralisée. J'aime baucoup l'idée en tout cas. L'inscription est payante (c'est un don donc c'est déductible à 75% de vos impôts) et vous devez vous inscrire ici
-<strong><a href="http://www.unicefheroesday.com">www.unicefheroesday.com</a></strong> 
-.
-</p>
-<p>
-A vous de courir maintenant ! Et j'espère que Kim fera un bon temps sur son parcours de 10 km ;-)
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/unicef-heroes-day-la-premiere-course-connectee-du-monde.html">
-UNICEF Heroes Day &#8211; La première course connectée du monde
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/unicef-heroes-day-la-premiere-course-connectee-du-monde.html/feed
-</wfw:commentRss>
-<slash:comments>17</slash:comments>
+<slash:comments>0</slash:comments>
+La Fnac ouvre son tout premier magasin de 85 mètres carrés, entièrement spécialisé dans l’univers des objets connectés et de la téléphonie.
 </item>
 <item>
 <title>
-24 outils pour mesurer et optimiser les temps de chargement de votre site web
+Et si Android Wear fonctionnait avec votre iPhone ?
 </title>
 <link>
-http://korben.info/23-outils-pour-mesurer-et-optimiser-les-temps-de-chargement-de-votre-site-web.html
+http://www.presse-citron.net/et-si-android-wear-fonctionnait-avec-votre-iphone/
 </link>
 <comments>
-http://korben.info/23-outils-pour-mesurer-et-optimiser-les-temps-de-chargement-de-votre-site-web.html#comments
+http://www.presse-citron.net/et-si-android-wear-fonctionnait-avec-votre-iphone/#comments
 </comments>
-<pubDate>Fri, 13 Mar 2015 10:09:24 +0000</pubDate>
+<pubDate>Thu, 19 Mar 2015 14:25:58 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Setra ]]>
 </dc:creator>
 <category>
-<![CDATA[ Administration Systeme Réseau ]]>
+<![CDATA[ Tech & Gadgets ]]>
 </category>
 <category>
-<![CDATA[ service web ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59560</guid>
-<description>
-<![CDATA[
-<p>
-Si vous souhaitez optimiser le chargement de vos sites, il faut avant tout que vous ayez un bon outil de mesure et d'analyse. Voici donc une petite liste de 24 outils ou services en ligne qui vous permettront de mieux comprendre comment se chargent les éléments de votre site et quels sont les points à [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/23-outils-pour-mesurer-et-optimiser-les-temps-de-chargement-de-votre-site-web.html">
-24 outils pour mesurer et optimiser les temps de chargement de votre site web
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Si vous souhaitez optimiser le chargement de vos sites, il faut avant tout que vous ayez un bon outil de mesure et d'analyse. Voici donc une petite liste de 24 outils ou services en ligne qui vous permettront de mieux comprendre comment se chargent les éléments de votre site et quels sont les p
-]]>
-<![CDATA[
-oints à améliorer pour rendre tout ça plus rapide.</p>
-<p>Bonne optimisation à tous !</p>
-<ul>
-<li>
-<a href="https://github.com/jmervine/bench">Bench</a>
-- Utilise Phantomas et permet de faire des benchmarks des pages, d'enregistrer les résultats en base et d'afficher tout ça sous la forme de g
-]]>
-<![CDATA[
-raphiques dans votre navigateur.</li>
-<li>
-<a href="https://www.dotcom-monitor.com/website-monitor/website-speed-monitoring.aspx">BrowserView Monitoring</a>
-- Permet de surveiller en continu, les temps de chargement dans un IE, un Chrome et un Firefox à partir de différents pays du monde.
-</li>
-<li>
-<a href="http://www.cedexis.com/fr/radar/page-load-time.html">Cedexis Radar</a>
-- Un service de RUM (real user monitoring) gratuit qui permet de connaitre le page load time en profondeur (réseau par réseau, par navigateur, etc) et qui offre en plus un outil de comparaison de la qualité de services de tous les CDN et Clouds du marché par rapport à son audience.
-</li>
-<li>
-<a href="https://github.com/jamesgpearce/confess">Confess</a>
-- Utilise PhantomJS pour générer des rapports sur le chargement de vos pages.
-</li>
-<li>
-<a href="https://www.dareboost.com/">DareBoost</a>
-- Permet d'avoir un rapport détaillé du chargement de votre site ainsi que sa conformité avec les standards du web. Il utilise YSlow et Page Speed.
-</li>
-<li>
-<a href="https://www.dotcom-tools.com/website-speed-test.aspx">Dotcom-tools</a>
-- Permet de lancer un chargement de votre site dans de vrais navigateurs à différents endroits de la planète.
-</li>
-<li>
-<a href="https://github.com/stefanjudis/grunt-phantomas">Grunt-phantomas</a>
-- Plugin pour Phantomas qui permet de mesurer les performances du frontend uniquement.
-<a href="https://github.com/andyshora/grunt-yslow">Existe aussi en version YSlow</a>
-et en version de
-<a href="https://github.com/tkadlec/grunt-perfbudget">budgétisation des performances</a>
-.
-</li>
-<li>
-<a href="http://gtmetrix.com/">GTmetrix</a>
-- GTmetrix utilise Google Page Speed et Yahoo! YSlow. Il attribue des notes à votre site et vous donne des recommandations pour l'optimiser.
-</li>
-<li>
-<a href="http://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/">HP LoadRunner</a>
-- Un outil de test automatisé qui permet d'analyser la performance en fonction de la charge du site.
-</li>
-<li>
-<a href="https://github.com/davidsonfellipe/keepfast">Keepfast</a>
-- Permet de surveiller les différents indicateurs liés à la performance de vos sites.
-</li>
-<li>
-<a href="https://github.com/pitomba/libra">Libra</a>
-- Un outil Python qui permet de mesurer le poids de votre site au fil du temps.
-</li>
-<li>
-<a href="http://newrelic.com/browser-monitoring">New Relic Browser Monitoring</a>
-- Permet de surveiller en temps réel et en détail, vos applications web en tenant compte de l'expérience utilisateur de l'Internaute.
-</li>
-<li>
-<a href="https://developers.google.com/speed/pagespeed/">Page Speed</a>
-- L'outil de Google pour connaitre les performances de votre site et tous les bons conseils pour l'optimiser. Une
-<a href="https://github.com/addyosmani/psi">API est dispo pour NodeJS</a>
-.
-</li>
-<li>
-<a href="http://lafikl.github.io/perfBar/">PerfBar</a>
-- Un outil en JS pour récupérer et afficher des données de perf sur votre site. Vous pouvez y ajouter vos propres critères de performance.
-</li>
-<li>
-<a href="https://www.npmjs.org/package/perfjankie">Perfjankie</a>
-- Outil pour surveiller la rapidité et le chargement de vos sites au fil du temps. (
-<a href="https://github.com/asciidisco/perfjankie-test">Fichiers de démo</a>
-).
-</li>
-<li>
-<a href="https://github.com/macbre/phantomas">Phantomas</a>
-- Basé sur
-<a href="http://phantomjs.org/">PhantomJS</a>
-</li>
-<li>
-<a href="http://tools.pingdom.com/fpt/">Pingdom Website Speed Test</a>
-- Permet de visualiser une timeline du chargement de votre site et de localiser les goulots d'étranglement.
-</li>
-<li>
-<a href="http://www.showslow.com/">Showslow</a>
-- Outil qui récupère les données de YSlow, Page Speed Insights, WebPageTest et dynaTrace AJAX Edition et qui permet de voir l'évolution des performances dans le temps.
-</li>
-<li>
-<a href="http://www.sitespeed.io/documentation/">Sitespeed.io</a>
-- Outil open source qui récupère des données sur les performances de votre site et vous indique si celui-ci respecte ou non les meilleures pratiques en terme d'optimisation.
-</li>
-<li>
-<a href="http://www.webpagetest.org/">WebPageTest</a>
-- C'est un service très riche en infos qui permet de lancer un benchmark à partir d'un vrai navigateur à différents endroits du monde, et qui donne entre autres, une timeline du chargement ainsi qu'une note et des conseils pour optimiser votre site. Une API est
-<a href="https://github.com/marcelduran/webpagetest-api">aussi disponible</a>
-.
-</li>
-<li>
-<a href="https://github.com/google/tracing-framework">Web Tracing Framework</a>
-- Framwork proposant des bibliothèques, des outils et des graphs pour rentrer en profondeur dans les mystères du chargement de vos sites.
-</li>
-<li>
-<a href="https://github.com/yandex/yandex-tank">Yandex.Tank</a>
-- Parfait pour faire des tests de chargement quand on est linuxien.
-</li>
-<li>
-<a href="http://yellowlab.tools">Yellow Lab Tools</a>
-- Outil en ligne qui permet de mettre le doigt sur vos erreurs d'optimisation et qui vous donne une note.
-</li>
-<li>
-<a href="https://github.com/marcelduran/yslow">YSlow</a>
-- Cet outil analyse vos pages et vous donne une note ainsi que des conseils pour l'optimiser.
-<a href="http://yslow.org/phantomjs/">Yslow existe aussi pour PhantomJS</a>
-ce qui permet d'automatiser les tests. Et une
-<a href="https://github.com/jmervine/node-yslowjs">API est dispo pour NodeJS</a>
-.
-</li>
-</ul>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/23-outils-pour-mesurer-et-optimiser-les-temps-de-chargement-de-votre-site-web.html">
-24 outils pour mesurer et optimiser les temps de chargement de votre site web
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/23-outils-pour-mesurer-et-optimiser-les-temps-de-chargement-de-votre-site-web.html/feed
-</wfw:commentRss>
-<slash:comments>8</slash:comments>
-</item>
-<item>
-<title>Exportez vos projets Google Code vers Github</title>
-<link>http://korben.info/exporter-code-vers-github.html</link>
-<comments>http://korben.info/exporter-code-vers-github.html#comments</comments>
-<pubDate>Fri, 13 Mar 2015 08:48:28 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Développement ]]>
-</category>
-<category>
-<![CDATA[ service web ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59556</guid>
-<description>
-<![CDATA[
-<p>
-Attention si vous avez du code sur Google Code... Google a annoncé hier que le service allait fermer. Sur leur blog, Google nous explique qu'en 2006, le monde de l'open source stagnait (Ahahaha) et qu'il voulait donner plus de choix aux développeurs pour héberger leur code (Ahahaha). Mais maintenant, avec l'arrivée de services comme GitHub [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/exporter-code-vers-github.html">Exportez vos projets Google Code vers Github</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Attention si vous avez du code sur
-<a href="http://code.google.com">Google Code</a>
-... Google a annoncé hier que le service allait fermer. Sur
-<a href="http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html">leur blog</a>
-, Google nous explique qu'en 2006, le monde de l'open source stagnait (Ahahaha) et qu'il voulait donner plus de choix aux développeurs pour héberger leur code (Ahahaha). Mais maintenant, avec l'arrivée de services comme GitHub ou Bitbucket, la mission de Google est remplie (MERCI !!), ils sont contents et ils coulent Google Code la main sur le coeur.
-</p>
-<p>
-Je pense plutôt qu'en réalité, leur bazar s'est complètement fait dépasser par Github et qu'ils n'ont plus besoin de Google Code pour indexer des fichiers sources.
-</p>
-<p>
-Sachez-le, donc... Depuis hier, il n'est plus possible de créer de projets et le 24 août, le site passera en lecture seule. Ensuite, il fermera définitivement le 25 janvier 2016. Certains projets d'importance comme Android et Chrome resteront en ligne passé cette date. Et des miroirs comme ceux du kernel Linux ou d'Eclipse seront toujours dispo.
-</p>
-<p>
-Par contre, vos petits projets NON. Alors pour les migrer, rendez-vous sur
-<a href="http://code.google.com/export-to-github">l'outil d'export de Google Code vers Github</a>
-.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/export.jpg">
-<img class="aligncenter size-new-size wp-image-59557" src="//korben.info/wp-content/uploads/2015/03/export-650x263.jpg" alt="export" width="650" height="263" />
-</a>
-</p>
-<p>
-Si vous préférez faire tout ça en ligne de commande,
-<a href="http://code.google.com/p/support-tools/">un autre outil téléchargeable</a>
-vous permettra de migrer aussi vers Github ou Bitbucket. Si vous voulez bouger votre code chez Sourceforge, il faudra plutôt utiliser
-<a href="http://sourceforge.net/p/forge/documentation/Google%20Code%20Importer/">l'outil d'importation proposé par Sourceforge</a>
-.
-</p>
-<p>
-<a href="http://www.ghacks.net/2015/03/12/google-code-is-dead/">Source</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/exporter-code-vers-github.html">Exportez vos projets Google Code vers Github</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/exporter-code-vers-github.html/feed</wfw:commentRss>
-<slash:comments>18</slash:comments>
-</item>
-<item>
-<title>La clé USB qui va griller votre ordinateur</title>
-<link>http://korben.info/cle-usb-killer.html</link>
-<comments>http://korben.info/cle-usb-killer.html#comments</comments>
-<pubDate>Thu, 12 Mar 2015 18:35:25 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ DIY ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59471</guid>
-<description>
-<![CDATA[
-<p>
-Après avoir lu un article sur un voleur qui a grillé son ordinateur en insérant dedans une clé USB qu'il venait de piquer à quelqu'un dans le métro, le bidouilleur Dark Purple a eu l'envie de créer lui aussi sa propre clé de destruction massive. Évidemment, ce n'est pas si simple qu'il y parait, car [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/cle-usb-killer.html">La clé USB qui va griller votre ordinateur</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Après avoir lu un article sur un voleur qui a grillé son ordinateur en insérant dedans une clé USB qu'il venait de piquer à quelqu'un dans le métro, le bidouilleur Dark Purple a eu l'envie de créer lui aussi
-<a href="http://kukuruku.co/hub/diy/usb-killer">
-sa propre clé de destruction mass
-]]>
-<![CDATA[
-ive</a>.</p>
-<p>
-Évidemment, ce n'est pas si simple qu'il y parait, car les ports USB embarquent des protections contre les survoltages, les soucis d'électricité statique ainsi que des
-<a href="http://fr.wikipedia.org/wiki/Diode_Transil">diodes Transil</a>
-pour déconnecter proprement le circuit en cas de pépin.
-</p>
-<p>
-Pour contourner toutes ces protections, Dark Purple a intégré dans son schéma un
-<a href="http://en.wikipedia.org/wiki/DC-to-DC_converter">convertisseur DC-DC</a>
-inversé qui récupère le jus du port USB pour charger un condensateur capable d'emmagasiner jusqu'à -110 V . Dès que tout est chargé, le convertisseur se coupe et un transistor décharge le condensateur sur les connecteurs du port USB. Une fois que c'est déchargé, le convertisseur se remet en route et récupère le jus renvoyé par le port USB pour ensuite le renvoyer encore et encore et encore jusqu'à ce que l'ordinateur rende l'âme à cause du voltage élevé et du courant fort qui sont capables de griller les fameuses diodes Transil et ensuite faire frire des composants plus sensibles comme le CPU (Processeur de la machine).
-</p>
-<p>
-<img class="image-center aligncenter" src="//korben.info/wp-content/uploads/2015/03/x35f4eb29b923.jpg.pagespeed.ic_.xafh6o4gsk23.jpg" alt="" width="648" height="254" />
-</p>
-<p style="text-align: center;">
-<em>
-Voici à quoi ça ressemble une fois mis sous la forme d'une clé USB.
-</em>
-</p>
-<p>
-En effet, comme les contrôleurs USB récents sont intégrés directement dans le CPU, rien de plus direct et efficace.
-</p>
-<p>
-Par conséquent, méfiez-vous la prochaine fois que vous trouverez une clé USB par terre... Cela pourrait être un piège très désagréable.
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/cle-usb-killer.html">La clé USB qui va griller votre ordinateur</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/cle-usb-killer.html/feed</wfw:commentRss>
-<slash:comments>27</slash:comments>
-</item>
-<item>
-<title>Problème de flux RSS [Message de service]</title>
-<link>
-http://korben.info/probleme-de-flux-rss-message-de-service.html
-</link>
-<comments>
-http://korben.info/probleme-de-flux-rss-message-de-service.html#comments
-</comments>
-<pubDate>Thu, 12 Mar 2015 14:54:58 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Korben ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59466</guid>
-<description>
-<![CDATA[
-<p>
-Pour une raison que j'ignore, le flux RSS du blog qui passe par Feedburner (le vieux machin) déconne sévère pour une raison encore non élucidée. Par conséquent, si vous êtes encore sur l'ancien flux et que vous voulez passer sur le vrai flux RSS, c'est celui-ci qu'il faut utiliser : http://korben.info/feed En plus c'est le [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/probleme-de-flux-rss-message-de-service.html">Problème de flux RSS [Message de service]</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Pour une raison que j'ignore, le flux RSS du blog qui passe par Feedburner (le vieux machin) déconne sévère pour une raison encore non élucidée. Par conséquent, si vous êtes encore sur l'ancien flux et que vous voulez passer
-<strong>sur le vrai flux RSS</strong>
-, c'est celui-ci qu'il faut utiliser :
-</p>
-<p style="text-align: center;">
-<strong><a href="http://korben.info/feed">http://korben.info/feed</a></strong> 
-</p>
-<p>
-En plus c'est le dernier flux RSS complet qu'on peut encore trouver sur la toile française alors autant en profiter ;-)
-</p>
-<p>
-Concernant Feedburner, <del>j'essayerai d'arranger le truc dès que possible.</del>
-Ayé c'est arrangé !
-</p>
-<p>Merci de votre patience !</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/probleme-de-flux-rss-message-de-service.html">Problème de flux RSS [Message de service]</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/probleme-de-flux-rss-message-de-service.html/feed
-</wfw:commentRss>
-<slash:comments>6</slash:comments>
-</item>
-<item>
-<title>Convertir un fichier Adobe Illustrator en HTML</title>
-<link>
-http://korben.info/convertir-un-fichier-adobe-illustrator-en-html.html
-</link>
-<comments>
-http://korben.info/convertir-un-fichier-adobe-illustrator-en-html.html#comments
-</comments>
-<pubDate>Thu, 12 Mar 2015 14:08:47 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Design ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59463</guid>
-<description>
-<![CDATA[
-<p>
-Si vous faites partie de la grande famille des webdesigner et que vous bossez essentiellement sous Adobe Illustrator, voici un truc de plus à ajouter dans votre boite à outils. Il s'agit de ai2html, un script gratuit pour Adobe Illustrateur qui est capable de convertir vos documents .ai en fichiers HTML + CSS. Une fois [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/convertir-un-fichier-adobe-illustrator-en-html.html">Convertir un fichier Adobe Illustrator en HTML</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Si vous faites partie de la grande famille des webdesigner et que vous bossez essentiellement sous Adobe Illustrator, voici un truc de plus à ajouter dans votre boite à outils.
-</p>
-<p>
-Il s'agit de
-<a href="http://ai2html.org/">ai2html</a>
-, un script gratuit pour Adobe Illustrateur qui est capable de convertir vos documents .ai en fichiers HTML + CSS.
-</p>
-<p>
-<a href="https://github.com/newsdev/ai2html/raw/master/ai2html.js">Une fois téléchargé</a>
-, vous devez bouger le script dans le répertoire "Scripts" d'Illustrator, puis une fois que votre document Illustrator est terminé, il ne vous reste plus qu'à le dimensionner à la taille de la div qui va accueillir le code, de vous assurer que les couleurs du document sont bien en mode RGB, que celui-ci est bien sauvegardé et que les polices que vous utilisez sont de l'Arial ou du Georgia (sauf si vous avez ajouté vos propres polices directement en dur dans le script).
-</p>
-<p>
-Et c'est seulement ensuite que vous pouvez lancer le script via le menu Fichier -&gt; Scripts -&gt; ai2html.
-</p>
-<p>
-Rendez-vous ensuite dans le dossier où se trouve votre document .ai et vous devriez voir un répertoire baptisé ai2html-output contenant la transformation en HTML / CSS.
-</p>
-<p>
-Ai2html n'est pas parfait, mais dans la plupart des cas, il fait du bon boulot. En tout cas, c'est ce qu'ils utilisent au New York Times pour convertir leurs cartes et autres illustrations en HTML.
-</p>
-<p>Amusez-vous bien !</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/convertir-un-fichier-adobe-illustrator-en-html.html">Convertir un fichier Adobe Illustrator en HTML</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/convertir-un-fichier-adobe-illustrator-en-html.html/feed
-</wfw:commentRss>
-<slash:comments>3</slash:comments>
-</item>
-<item>
-<title>
-Star Citizen – La démo en accès libre seulement pendant quelques jours
-</title>
-<link>http://korben.info/telecharger-demo-star-citizen.html</link>
-<comments>
-http://korben.info/telecharger-demo-star-citizen.html#comments
-</comments>
-<pubDate>Thu, 12 Mar 2015 13:52:32 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Jeux vidéos ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59460</guid>
-<description>
-<![CDATA[
-<p>
-Si ça vous branche de tester le prochan jeu de Chris Roberts baptisé Star Citizen, sachez que vous avez jusqu'au 16 mars pour télécharger et jouer à la démo. En vous rendant ici, et en y entrant le code suivant (PAXEASTFREEFLY2K15) vous pourrez rejoindre la simulation spatiale la plus ambitieuse de l'histoire du jeu vidéo [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/telecharger-demo-star-citizen.html">
-Star Citizen &#8211; La démo en accès libre seulement pendant quelques jours
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Si ça vous branche de tester le prochan jeu de
-<strong>Chris Roberts</strong>
-baptisé
-<strong>Star Citizen</strong>
-, sachez que vous avez jusqu'au 16 mars pour télécharger et jouer à la démo.
-</p>
-<p>
-<a href="https://robertsspaceindustries.com/promotions/paxeast-2015/">En vous rendant ici</a>
-, et en y entrant le code suivant (
-<strong>PAXEASTFREEFLY2K15</strong>
-) vous pourrez rejoindre la simulation spatiale la plus ambitieuse de l'histoire du jeu vidéo ;-) Y'en a pour 21 Go à récupérer.
-</p>
-<p>
-Les joueurs ayant aidé  au financement participatif ont pu déjà tester le jeu, mais cette fois, exceptionnellement et pour une durée limitée, c'est open pour tout le monde. Il s'agit d'une version alpha qui vous permettra de tester le vaisseau F7C Hornet dans le hangar et en extérieur.
-</p>
-<p style="text-align: center;">
-<iframe src="https://www.youtube.com/embed/ZIyXkTlwe6k" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-</p>
-<p>
-J'ai eu la chance d'y jouer un peu avant et je dois dire que si j'avais plusieurs vies, j'en consacrerais une à ce jeu qui me ferait me sentir comme dans BattleStar Galactica.
-</p>
-<p>La première version finale devrait sortir courant 2016.</p>
-<p>
-<a href="http://powerleveled.com/would-you-like-to-test-out-star-citizen-heres-a-free-trial/">Source</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/telecharger-demo-star-citizen.html">
-Star Citizen &#8211; La démo en accès libre seulement pendant quelques jours
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/telecharger-demo-star-citizen.html/feed</wfw:commentRss>
-<slash:comments>31</slash:comments>
-</item>
-<item>
-<title>Amis Freenautes, j’ai de bonnes nouvelles pour vous !!!!!!</title>
-<link>http://korben.info/freebox-mini-4k.html</link>
-<comments>http://korben.info/freebox-mini-4k.html#comments</comments>
-<pubDate>Thu, 12 Mar 2015 09:09:57 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ FAI ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59442</guid>
-<description>
-<![CDATA[
-<p>
-Vous vous souvenez de cet article formidable que j'avais écrit 2011 sur la stratégie du pourrissement mis en place par Free pour négocier en mode bras de fer avec YouTube sur les accords de peering ? Et bien après avoir pris en otage leurs abonnés durant 4 ans (enfin, ceux qui n'ont pas changé de [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/freebox-mini-4k.html">
-Amis Freenautes, j&rsquo;ai de bonnes nouvelles pour vous !!!!!!
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Vous vous souvenez de
-<a href="http://korben.info/fai-la-strategie-du-pourrissement.html">cet article formidable</a>
-que j'avais écrit 2011 sur la stratégie du pourrissement mis en place par Free pour négocier en mode bras de fer avec YouTube sur les accords de peering ?
-</p>
-<p>
-Et bien après avoir pris en otage leurs abonnés durant 4 ans (enfin, ceux qui n'ont pas changé de FAI entre temps), et sans n'avoir jamais reconnu le problème officiellement, Free à travers Maxime Lombardini a reconnu avoir conclu un accord avec Google (
-<a href="http://www.01net.com/editorial/648642/youtube-qui-rame-chez-free-c-est-fini/">source</a>
-).
-</p>
-<p>
-Cela signifie que les abonnés les plus patients vont enfin être récompensés et accèdent maintenant à YouTube aussi rapidement que n'importe quel autre abonné français. ENFIN !
-</p>
-<p>
-C'est une excellente nouvelle et c'était totalement prévisible, car la nouvelle
-<strong>Freebox mini 4K</strong>
-(mini-💩 ?) se débarrasse de tout ce qui a fait le charme des Freebox TV jusqu'à présent, pour passer entièrement sous la coupe de Google. En effet, cette FreeBoite n'est ni plus ni moins qu'une boite Google TV (Techniquement c'est de l'Android) comme on en trouve dans n'importe quel bazar chinois (sauf qu'elle a été "conçue" en France par des Français).
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/freebox-mini-4k.jpg">
-<img class="aligncenter size-new-size wp-image-59446" src="//korben.info/wp-content/uploads/2015/03/freebox-mini-4k-650x120.jpg" alt="freebox-mini-4k" width="650" height="120" />
-</a>
-</p>
-<p>
-Niveau fonctionnalités et interface, rien à dire, c'est du Google, donc c'est propre et on y retrouve toutes les applications et services à la mode (Et j'imagine, aussi Netflix - Ahahaha !). Donc c'est clair que valait mieux dealer un truc costaud avec Google pour que les abonnés puissent profiter pleinement des fonctionnalités de la mini 4K. Par contre, je ne pense pas que fourrer du Google partout sur la Freebox et offrir un énorme réservoir de clients ait été un critère de négociation pour arranger cette situation concernant le peering. Après, j'suis pas dans le secret des Dieux non plus :-D .
-</p>
-<p>
-Edit : Petite précision, je parle bien ici de la Freebox TV. La nouvelle Freebox Server n'est pas "encore" sous Android.
-</p>
-<p>
-Mais ce qui m'inquiète le plus avec cette nouvelle
-<strong>FreeGoogleBox</strong>
-, c'est qu'on cherche tous à décentraliser le net, à trouver des alternatives à Google and co, garder ses données personnelles pour soi, et à sa manière, Free se battait aussi pour ça en proposant pleins de trucs cools et faits-maison dans sa box (FTP, client torrent, applications...Etc). Maintenant, même si toutes ces choses restent, cette bataille est finie et Google doit être ravi de récupérer directement des abonnés Free, des tas de nouvelles données utilisateurs à analyser et des tas de clients potentiels pour son PlayStore et ses outils.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/ahahah.jpg">
-<img class="aligncenter size-new-size wp-image-59445" src="//korben.info/wp-content/uploads/2015/03/ahahah-650x188.jpg" alt="ahahah" width="650" height="188" />
-</a>
-</p>
-<p style="text-align: center;">
-<em>
-Vu sur le site de Free. Oh cool, je regarde le film sur Snowden avec ma box Google.
-<br />
-(Garantie 100% foutage de gueule)
-</em>
-</p>
-<p>
-Bref, j'ai vraiment l'impression qu'on vient de faire un énorme pas en arrière avec cette nouvelle stratégie commerciale. Y'avait vraiment un truc à jouer et malheureusement, Free n'a pas innové et a tout simplement suivi ce qu'ont fait les autres FAI tels que Bouygues Telecom (avec la Bbox Miami), en mettant de l'Android dans leurs box.
-</p>
-<p>
-La box des geeks s'est transformée en box pour Madame Michue. Snif...
-</p>
-<p>
-A mon sens, on verra ce qu'il feront avec la Freebox v7 mais pour le moment, ce que je constate, c'est qu'il n'y a plus de vision, plus d'engagement ni de prise de position. Mais bon, maintenant vous pouvez zapper de France 3 à France 2 aussi vite que vos neurones claquent et surtout vous avez YOUTUBE À FOND LA CAISSE, ALORS ARRÊTEZ DE RÉFLÉCHIR ET COURREZ VITE CONSOMMER MES NOUVELLES VIDÉOS DE CHATONS QUI TOURNENT DANS DES MICRO-ONDES.
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/freebox-mini-4k.html">
-Amis Freenautes, j&rsquo;ai de bonnes nouvelles pour vous !!!!!!
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/freebox-mini-4k.html/feed</wfw:commentRss>
-<slash:comments>127</slash:comments>
-</item>
-<item>
-<title>CIA / Apple – Le ver serait-il aussi dans la pomme ?</title>
-<link>
-http://korben.info/cia-apple-le-ver-serait-il-aussi-dans-la-pomme.html
-</link>
-<comments>
-http://korben.info/cia-apple-le-ver-serait-il-aussi-dans-la-pomme.html#comments
-</comments>
-<pubDate>Wed, 11 Mar 2015 16:23:27 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Hardware ]]>
+<![CDATA[ Android Wear ]]>
 </category>
 <category>
 <![CDATA[ iOS ]]>
 </category>
 <category>
-<![CDATA[ Mac OSX ]]>
+<![CDATA[ smartwatch ]]>
 </category>
-<category>
-<![CDATA[ Sécurité ]]>
-</category>
-<category>
-<![CDATA[ Société ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59434</guid>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129152</guid>
 <description>
-<![CDATA[
-<p>
-Tristan Nitot qui rejoint MyCozyCloud, c'est la grosse news du jour. Mais l'autre grosse news c'est cette révélation de The Intercept (via Snowden) qui explique dans un article que la CIA (avec l'aide de chercheurs en sécurité) travaille depuis des années sur les sécurités mises en place par Apple. Et chaque année, ces mêmes chercheurs [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/cia-apple-le-ver-serait-il-aussi-dans-la-pomme.html">CIA / Apple &#8211; Le ver serait-il aussi dans la pomme ?</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
+<![CDATA[ Et si Google lâchait une bombe sur l’Apple Watch… ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Tristan Nitot qui rejoint
-<a href="http://korben.info/cozy-le-nouveau-combat-de-tristan-nitot-ex-mozilla-pour-la-decentralisation-dinternet.html">MyCozyCloud</a>
-, c'est la grosse news du jour. Mais l'autre grosse news c'est cette révélation de
-<strong>The Intercept</strong>
-(via Snowden) qui ex
-]]>
-<![CDATA[
-plique dans un article que la CIA (avec l'aide de chercheurs en sécurité) travaille depuis des années sur les sécurités mises en place par Apple. Et chaque année, ces mêmes chercheurs font la démonstration de leurs découvertes lors d'un rassemblement secret baptisé : <strong>Jamboree</strong>
-.
-</p>
-<p>
-Les chercheurs ont mis au point pour le compte de la CIA, une version modifiée de Xcode (l'outil de dev d'Apple) qui permet d'injecter une backdoor dans n'importe quelle application crée avec cet outil. D'après ces mêmes chercheurs, cette version modifiée d'Xcode permet sur iOS de dérober les mots de passe et les messages et de les envoyer discrètement à un serveur qui "écoute".
-</p>
-<p>
-Mis à part ça, ils ont aussi réussi à modifier une version de OSX Updater (pour faire les mises à jour), ce qui leur permet d'installer des keyloggers et autres petites joyeusetés à distance sur les ordinateurs.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/jamboree1.jpg">
-<img class="aligncenter size-new-size wp-image-59439" src="//korben.info/wp-content/uploads/2015/03/jamboree1-650x404.jpg" alt="jamboree" width="650" height="404" />
-</a>
-</p>
-<p>
-Bref, bonne ambiance, même si ça ne veut pas dire que chez Apple, c'est cette version qui est proposée au téléchargement pour les développeurs. Après dans l'absolu, pourquoi pas. Il suffirait qu'un agent de la CIA (ou un complice) se fasse embaucher chez Apple (ou chez un développeur tiers) et s'infiltre sur le projet Xcode ou sur des projets utilisant Xcode pour que l'ensemble des logiciels compilés pour iOS et OSX soit corrompu avec la porte dérobée de la CIA.
-</p>
-<p>
-Cela ne vous aura pas échappé... La vraie question que tout le monde se pose c'est : Y'a t-il une porte dérobée dans Angry Birds ? ^^
-</p>
-<p>
-À ce sujet, on est dans le flou, mais j'espère que Tim Cook va auditer son code rapidement et porter plainte contre la CIA (BAH QUOI, ON PEUT RÊVER ?).
-</p>
-<p>
-Si vous voulez plus de détails là dessus et les documents, je vous invite à jeter un oeil à l'article de
-<a href="https://firstlook.org/theintercept/2015/03/10/ispy-cia-campaign-steal-apples-secrets/">The Intercept.</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/cia-apple-le-ver-serait-il-aussi-dans-la-pomme.html">CIA / Apple &#8211; Le ver serait-il aussi dans la pomme ?</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
 <wfw:commentRss>
-http://korben.info/cia-apple-le-ver-serait-il-aussi-dans-la-pomme.html/feed
+http://www.presse-citron.net/et-si-android-wear-fonctionnait-avec-votre-iphone/feed/
 </wfw:commentRss>
-<slash:comments>15</slash:comments>
-</item>
-<item>
-<title>Un outil pour pirater des comptes Facebook</title>
-<link>http://korben.info/pirate-compte-facebook.html</link>
-<comments>http://korben.info/pirate-compte-facebook.html#comments</comments>
-<pubDate>Wed, 11 Mar 2015 09:49:44 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Sécurité ]]>
-</category>
-<category>
-<![CDATA[ service web ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59423</guid>
-<description>
-<![CDATA[
-<p>
-La société de pentest Sakurity a découvert une vulnérabilité assez chaude dans Facebook qui permet de profiter d'un manque de protection contre les attaques CSRF (Cross Site Request Forgery) lors de la connexion, de la déconnexion, ou de la connexion via des applications tierces (Bit.ly, Vimeo, Stumbleupon...etc.) à Facebook. En gros, pour vous la faire [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/pirate-compte-facebook.html">Un outil pour pirater des comptes Facebook</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-La société de pentest
-<strong>Sakurity</strong>
-a découvert une vulnérabilité assez chaude dans Facebook qui permet de profiter d'un manque de protection contre les attaques CSRF (Cross Site Request Forgery) lors de la connexion, de la déconnexion, ou de la connexion via des applications tierces (Bit.ly, Vimeo, Stumbleupon...etc.) à Facebook.
-</p>
-<p>
-En gros, pour vous la faire simple, en forgeant une URL malicieuse, un vilain pirate peut lier son compte Facebook au vôtre, via le Facebook Login d'un site tiers et ensuite voir la main sur votre profil Facebook (Changer le mot de passe, l'email, lire les messages privés...Etc.).
-</p>
-<p>
-Cette faille est connue depuis 1 an et Sakurity a depuis longtemps prévenu Facebook qui n'a strictement rien fait pour la corriger, car ils expliquent que ce sont aux développeurs des sites tiers de faire en sorte que ça n'arrive pas en respectant les meilleurs pratiques de FB et en utilisant le paramètre "state" du login OAuth. Du coup, Sakurity est monté d'un cran et propose un outil baptisé
-<a href="http://sakurity.com/reconnect" target="_blank">
-<strong>Reconnect</strong>
-</a>
-ainsi
-<a href="http://sakurity.com/blog/2015/03/05/RECONNECT.html" target="_blank">qu'un tuto pour permettre à tous les affreux</a>
-qui veulent aller en prison de choper les accès Facebook d'innocentes victimes. C'est moche, c'est à la limite de la prise d'otage, mais espérons que ça fasse rapidement réagir Facebook et les sites tiers.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/reconnect.jpg">
-<img class="aligncenter size-full wp-image-59425" src="//korben.info/wp-content/uploads/2015/03/reconnect.jpg" alt="reconnect" width="650" height="342" />
-</a>
-</p>
-<p>
-En attendant, pour vous protéger de ça, il n'y a pas grand-chose à faire mis à part : NE PAS CLIQUER SUR DES URLs FACEBOOK qui vous seraient envoyées via les réseaux sociaux, via SMS, messagerie instantanée, emails...etc. Et évidemment, évitez de surfer sur des sites louches qui pourraient embarquer la même "astuce" avec un bon gros bouton Facebook Connect.
-</p>
-<p>
-Et si vous êtes développeur et que vous avez intégré du Facebook login sur vos sites et outils, pensez à vérifier que cet exploit CSRF n'est pas possible chez vous.
-</p>
-<p>
-<a href="http://thehackernews.com/2015/03/facebook-hacking-tool.html" target="_blank">Source</a>
-</p>
-<p>&nbsp;</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/pirate-compte-facebook.html">Un outil pour pirater des comptes Facebook</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/pirate-compte-facebook.html/feed</wfw:commentRss>
-<slash:comments>20</slash:comments>
+<slash:comments>0</slash:comments>
+Et si Google lâchait une bombe sur l’Apple Watch…
 </item>
 <item>
 <title>
-Cozy, le nouveau combat de Tristan Nitot (ex-Mozilla) pour la décentralisation d’Internet
+Quand Google, Intel et TAG Heuer travaillent main dans la main sur une smartwatch
 </title>
 <link>
-http://korben.info/cozy-le-nouveau-combat-de-tristan-nitot-ex-mozilla-pour-la-decentralisation-dinternet.html
+http://www.presse-citron.net/quand-google-intel-et-tag-heuer-travaillent-main-dans-la-main-sur-une-smartwatch/
 </link>
 <comments>
-http://korben.info/cozy-le-nouveau-combat-de-tristan-nitot-ex-mozilla-pour-la-decentralisation-dinternet.html#comments
+http://www.presse-citron.net/quand-google-intel-et-tag-heuer-travaillent-main-dans-la-main-sur-une-smartwatch/#comments
 </comments>
-<pubDate>Wed, 11 Mar 2015 09:10:12 +0000</pubDate>
+<pubDate>Thu, 19 Mar 2015 13:53:03 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Setra ]]>
 </dc:creator>
 <category>
-<![CDATA[ Liberté ]]>
+<![CDATA[ Tech & Gadgets ]]>
 </category>
 <category>
-<![CDATA[ Libre ]]>
+<![CDATA[ Google ]]>
 </category>
 <category>
-<![CDATA[ Script ]]>
+<![CDATA[ Intel ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59417</guid>
+<category>
+<![CDATA[ smartwatch ]]>
+</category>
+<category>
+<![CDATA[ Tag Heuer ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129147</guid>
 <description>
 <![CDATA[
-<p>
-Tristan Nitot, ex-Mozilla qui pendant 12 ans a aidé à la démocratisation du navigateur Firefox est un fervent défenseur du logiciel libre. Ce que j'aime bien chez Tristan, c'est qu'il se bat chaque jour pour des idées (le logiciel libre, la vie privée...etc.) sans tomber dans les pièges de ce combat. Le piège c'est d'adopter [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/cozy-le-nouveau-combat-de-tristan-nitot-ex-mozilla-pour-la-decentralisation-dinternet.html">
-Cozy, le nouveau combat de Tristan Nitot (ex-Mozilla) pour la décentralisation d&rsquo;Internet
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Android Wear aura peut-être enfin droit à sa smartwatch de luxe.
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Tristan Nitot, ex-Mozilla qui pendant 12 ans a aidé à la démocratisation du navigateur Firefox est un fervent défenseur du logiciel libre. Ce que j'aime bien chez Tristan, c'est qu'il se bat chaque jour pour des idées (le logiciel libre, la vie privée...etc.) sans tomber dans les pièges de ce combat.
-</p>
-<p>
-Le piège c'est d'adopter la posture du barbu extrémiste qui respire, mange et chie du libre, sans se poser une seule fois la question : "Comment je fais pour que Madame Michu respire, mange et chie, elle aussi, du logiciel libre ?"
-</p>
-<p>
-Dire à Madame Michue qu'elle est la reine des connasses parce qu'elle ne compile pas son Lynx sur FreeBSD ou qu'elle utilise les outils Gmail au lieu d'installer son propre serveur de mail, ce n'est pas servir la cause du logiciel libre. Au contraire, concevoir et porter un navigateur comme Firefox pour amener le logiciel libre au niveau d'exigence du grand public, c'est beaucoup plus utile et bien sûr beaucoup plus difficile.
-</p>
-<p>
-Il faut adopter des techniques marketing, il faut suivre le mouvement de la concurrence non libre, il faut être bon techniquement et savoir garder les choses simples comme dans les pubs Herta. Et surtout, il faut continuer à porter un message d'ouverture sans saouler tout le monde. Pas simple !
-</p>
-<p>Et c'est ce que Tristan et sa team ont fait.</p>
-<p>
-Maintenant que la page Mozilla se tourne pour lui, il aurait pu très bien aller bosser dans un boite qui n'a rien à faire de l'open source et du logiciel libre. Mais au fond de son petit coeur de biker, ce n'est pas l'objectif... A quoi bon vivre si on ne peut pas faire évoluer le monde dans le bon sens, même un tout petit peu ?
-</p>
-<p>
-Et vous le savez comme moi, ce combat n'est pas terminé. Avec les révélations Snowden, le grand public a découvert les méfaits de la centralisation. Nos messages et nos comportements en ligne sont détournés, analysés et stockés par les polices du monde entier. Nous sommes clairement sur un Internet surveillé et nos espaces de liberté ont tendance à se réduire chaque jour. Malheureusement, pour la plupart des gens, c'est trop tard. Difficile de changer ses habitudes et de basculer sur des outils moins bien que ceux de Google, ceux de Microsoft ou encore ceux d'Apple.
-</p>
-<p>
-Et je ne parle pas de Facebook qui est le passage obligé de quasiment tous les internautes (Oui, je sais pas toi, c'est pas la peine de laisser un commentaire pour le dire. Je te décerne d'office un prix pour cet acte de résistance ^^).
-</p>
-<p>
-Vous en tant que bidouilleur, vous savez vous y intéresser, vous savez comment rester maitre de vos données, mais ce n'est pas le cas de vos parents, votre petit frère, vos amis, votre nana ou votre mec...etc.
-</p>
-<p>
-Alors que faire ? (Et je suis certain que Tristan s'est posé les mêmes questions)
-</p>
-<p>Et bien pour Tristan, ça se matérialise par :</p>
-<ul>
-<li>
-1/ L'écriture d'un
-<a href="http://standblog.org/blog/serie/flicage-brouillon">bouquin</a>
-grand public pour expliquer comment reprendre en main les choses
-</li>
-<li>
-2/ L'arrivée en tant que C3P0
-<a href="https://twitter.com/glaforge/status/575569564144132096">©</a>
-(Cozy Cloud Chief Product Officer) chez MyCozyCloud.
-</li>
-</ul>
-<p>
-Cozy pour ceux qui ne lisent pas assez assidument mon site, c'est
-<a href="http://korben.info/cozycloud.html">cette solution clés en main</a>
-qui s'installe sur un ordi et qui permet d'avoir ses agendas, ses mails, ses fichiers, ses contacts et des tas d'applications en local chez soi.
-<a href="https://cozy.io/fr/">Cozy c'est ouvert, c'est libre</a>
-, c'est gratuit, et ça permet surtout de se passer des géants américains sans rien payer.
-</p>
-<p>
-Après Cozy, c'est encore loin d'être parfait. Ce n’est pas forcement évident à installer quand on n'y connait rien et ce n’est pas non plus hyper sexy / ergonomique.Mais c'est déjà ça et ça a le mérite d'exister. Maintenant, là où ça va devenir intéressant, c'est que les mecs ont un peu de sous, et que Tristan va pouvoir faire sa magie pour transformer "
-<em>Cozy, le truc de barbus</em>
-", en "
-<em>Cozy, le truc que ma mère va pouvoir installer seule</em>
-".
-</p>
-<p>
-C'est ça le véritable challenge. Et comme Mozilla, ça ne se fera pas sans vous. Si les bidouilleurs désertent, c'est mort. Si au contraire, vous commencez à vous y intéresser, à développer ou à porter des applications pour Cozy et à soutenir, même moralement le projet, je pense qu'au final, ça peut donner un truc cool et aider enfin à la décentralisation d'Internet comme le rêvent pas mal de monde. J'ai la même conviction et je pourrai tenir exactement le même discours pour le moteur de recherche Qwant, par exemple.
-</p>
-<p>
-Une nouvelle version relookée de Cozy et avec pas mal de nouvelles fonctionnalités devrait arriver prochainement, donc je vous en reparlerai, mais l'un des enjeux se situe au niveau du market d'applications. Donc si vous développez des trucs cool, pensez à eux.
-</p>
-<p>
-Voilà je m'arrête là sur le sujet. Je tiens à dire à Tristan que j'ai beaucoup apprécié son travail sur Mozilla et j'espère qu'il fera encore mieux avec Cozy. Oui j'aime mettre la pression ;-).
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/cozy-le-nouveau-combat-de-tristan-nitot-ex-mozilla-pour-la-decentralisation-dinternet.html">
-Cozy, le nouveau combat de Tristan Nitot (ex-Mozilla) pour la décentralisation d&rsquo;Internet
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
 <wfw:commentRss>
-http://korben.info/cozy-le-nouveau-combat-de-tristan-nitot-ex-mozilla-pour-la-decentralisation-dinternet.html/feed
+http://www.presse-citron.net/quand-google-intel-et-tag-heuer-travaillent-main-dans-la-main-sur-une-smartwatch/feed/
+</wfw:commentRss>
+<slash:comments>0</slash:comments>
+Android Wear aura peut-être enfin droit à sa smartwatch de luxe.
+</item>
+<item>
+<title>
+Que diriez-vous d’explorer le centre de la Terre depuis votre navigateur ?
+</title>
+<link>
+http://www.presse-citron.net/que-diriez-vous-dexplorer-le-centre-de-la-terre-depuis-votre-navigateur/
+</link>
+<comments>
+http://www.presse-citron.net/que-diriez-vous-dexplorer-le-centre-de-la-terre-depuis-votre-navigateur/#comments
+</comments>
+<pubDate>Thu, 19 Mar 2015 08:41:20 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Fredzone ]]>
+</dc:creator>
+<category>
+<![CDATA[ Web ]]>
+</category>
+<category>
+<![CDATA[ BBC ]]>
+</category>
+<category>
+<![CDATA[ CSS ]]>
+</category>
+<category>
+<![CDATA[ HTML ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129120</guid>
+<description>
+<![CDATA[
+La BBC vous invite à prendre votre casque et votre marteau piqueur, pour vous lancer dans une belle épopée virtuelle et stylisée.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/que-diriez-vous-dexplorer-le-centre-de-la-terre-depuis-votre-navigateur/feed/
+</wfw:commentRss>
+<slash:comments>3</slash:comments>
+La BBC vous invite à prendre votre casque et votre marteau piqueur, pour vous lancer dans une belle épopée virtuelle et stylisée.
+</item>
+<item>
+<title>Microsoft annonce la mort d’Internet Explorer</title>
+<link>
+http://www.presse-citron.net/microsoft-annonce-la-mort-dinternet-explorer-son-celebre-navigateur/
+</link>
+<comments>
+http://www.presse-citron.net/microsoft-annonce-la-mort-dinternet-explorer-son-celebre-navigateur/#comments
+</comments>
+<pubDate>Wed, 18 Mar 2015 22:30:30 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Manu ]]>
+</dc:creator>
+<category>
+<![CDATA[ Navigateurs ]]>
+</category>
+<category>
+<![CDATA[ Internet Explorer ]]>
+</category>
+<category>
+<![CDATA[ Microsoft ]]>
+</category>
+<category>
+<![CDATA[ mort-internet-explorer ]]>
+</category>
+<category>
+<![CDATA[ navigateur internet ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129079</guid>
+<description>
+<![CDATA[
+Internet Explorer, le navigateur qui fut roi pendant des années devrait disparaître à petit feu et être remplacé par un nouveau navigateur.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/microsoft-annonce-la-mort-dinternet-explorer-son-celebre-navigateur/feed/
+</wfw:commentRss>
+<slash:comments>9</slash:comments>
+Internet Explorer, le navigateur qui fut roi pendant des années devrait disparaître à petit feu et être remplacé par un nouveau navigateur.
+</item>
+<item>
+<title>
+Microsoft : avec ou sans licence, vous aurez droit à la mise à jour gratuite vers Windows 10
+</title>
+<link>
+http://www.presse-citron.net/microsoft-avec-ou-sans-licence-vous-aurez-droit-a-la-mise-a-jour-gratuite-vers-windows-10/
+</link>
+<comments>
+http://www.presse-citron.net/microsoft-avec-ou-sans-licence-vous-aurez-droit-a-la-mise-a-jour-gratuite-vers-windows-10/#comments
+</comments>
+<pubDate>Wed, 18 Mar 2015 18:11:02 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Setra ]]>
+</dc:creator>
+<category>
+<![CDATA[ Tech & Gadgets ]]>
+</category>
+<category>
+<![CDATA[ gratuit ]]>
+</category>
+<category>
+<![CDATA[ mise à jour ]]>
+</category>
+<category>
+<![CDATA[ piratage ]]>
+</category>
+<category>
+<![CDATA[ Windows 10 ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129088</guid>
+<description>
+<![CDATA[
+Microsoft souhaite vous remettre sur le droit chemin.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/microsoft-avec-ou-sans-licence-vous-aurez-droit-a-la-mise-a-jour-gratuite-vers-windows-10/feed/
+</wfw:commentRss>
+<slash:comments>5</slash:comments>
+Microsoft souhaite vous remettre sur le droit chemin.
+</item>
+<item>
+<title>Lancement officiel de Windows 10 cet été</title>
+<link>
+http://www.presse-citron.net/lancement-officiel-de-windows-10-cet-ete/
+</link>
+<comments>
+http://www.presse-citron.net/lancement-officiel-de-windows-10-cet-ete/#comments
+</comments>
+<pubDate>Wed, 18 Mar 2015 14:28:22 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Manu ]]>
+</dc:creator>
+<category>
+<![CDATA[ Business ]]>
+</category>
+<category>
+<![CDATA[ lancement-Windows-10 ]]>
+</category>
+<category>
+<![CDATA[ Microsoft ]]>
+</category>
+<category>
+<![CDATA[ sortie-Windows-10 ]]>
+</category>
+<category>
+<![CDATA[ Window-10 ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129048</guid>
+<description>
+<![CDATA[
+Microsoft a dévoilé hier, que le lancement officiel de Windows 10 interviendrait dans le courant de cet été, sans fournir plus de précision.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/lancement-officiel-de-windows-10-cet-ete/feed/
+</wfw:commentRss>
+<slash:comments>6</slash:comments>
+Microsoft a dévoilé hier, que le lancement officiel de Windows 10 interviendrait dans le courant de cet été, sans fournir plus de précision.
+</item>
+<item>
+<title>Spotify : pourquoi toi et moi c’est fini</title>
+<link>
+http://www.presse-citron.net/spotify-pourquoi-toi-et-moi-cest-fini/
+</link>
+<comments>
+http://www.presse-citron.net/spotify-pourquoi-toi-et-moi-cest-fini/#comments
+</comments>
+<pubDate>Wed, 18 Mar 2015 10:50:22 +0000</pubDate>
+<dc:creator>
+<![CDATA[ alexandragiroux ]]>
+</dc:creator>
+<category>
+<![CDATA[ Musiques ]]>
+</category>
+<category>
+<![CDATA[ avis ]]>
+</category>
+<category>
+<![CDATA[ musique ]]>
+</category>
+<category>
+<![CDATA[ premium ]]>
+</category>
+<category>
+<![CDATA[ Spotify ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=128985</guid>
+<description>
+<![CDATA[
+Coup de gueule après 6 ans de vie commune et des centaines d'euros partis en fumée.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/spotify-pourquoi-toi-et-moi-cest-fini/feed/
 </wfw:commentRss>
 <slash:comments>33</slash:comments>
+Coup de gueule après 6 ans de vie commune et des centaines d'euros partis en fumée.
 </item>
 <item>
 <title>
-Comment supprimer EpicScale ? (le malware présent dans uTorrent)
+Aéromobil : des voitures volantes sans pilote dès 2017
 </title>
-<link>http://korben.info/utorrent-malware.html</link>
-<comments>http://korben.info/utorrent-malware.html#comments</comments>
-<pubDate>Tue, 10 Mar 2015 11:00:54 +0000</pubDate>
+<link>
+http://www.presse-citron.net/aeromobil-des-voitures-volantes-sans-pilote-des-2017/
+</link>
+<comments>
+http://www.presse-citron.net/aeromobil-des-voitures-volantes-sans-pilote-des-2017/#comments
+</comments>
+<pubDate>Wed, 18 Mar 2015 10:47:18 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Manu ]]>
 </dc:creator>
 <category>
-<![CDATA[ Sécurité ]]>
+<![CDATA[ Buzz ]]>
 </category>
 <category>
-<![CDATA[ Windows ]]>
+<![CDATA[ aeromobil ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59319</guid>
+<category>
+<![CDATA[ Juraj-Vaculik ]]>
+</category>
+<category>
+<![CDATA[ voiture volante ]]>
+</category>
+<category>
+<![CDATA[ voiture-volante-sans-pilote ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129046</guid>
 <description>
 <![CDATA[
-<p>
-Après une mise à jour du client uTorrent, des utilisateurs se sont rendu compte que celui-ci avait installé sur leur machine Windows et à leur insu, un malware. Ce malware baptisé EpicScale tourne en tâche de fond sur l'ordinateur pour miner des cryptomonnaies (Bitcoin, LiteCoin, DogeCoin...etc). Et vous vous en doutez, ça fait ramer l'ordi [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/utorrent-malware.html">
-Comment supprimer EpicScale ? (le malware présent dans uTorrent)
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Alors que des géants du web comme Google ou Apple, planchent depuis des années sur des voitures sans chauffeur, l’entreprise Aéromobil va proposer une voiture volante sans pilote dès 2017 !
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Après une mise à jour du client
-<strong>uTorrent</strong>
-, des utilisateurs se sont rendu compte que celui-ci avait installé sur leur machine Windows et à leur insu, un malware. Ce malware baptisé EpicScale tourne en tâche de fond sur l'ordinateur pour miner des cryptomonnaies (Bitcoin, Lit
-]]>
-<![CDATA[
-eCoin, DogeCoin...etc). Et vous vous en doutez, ça fait ramer l'ordi !!</p>
-<p>
-Cette installation forcée n'a pas eu lieu sur l'intégralité des 150 millions de clients uTorrent présents dans le monde mais ça vaut quand même le coup de vérifier, surtout que pour pas mal d'antivirus, cet outil est légitime (et donc non détecté).
-</p>
-<p>
-Malheureusement, en plus de l'installation en mode fourbe, la désinstallation de cette merde n'est pas propre. Alors si vous êtes vous aussi infecté, voici comment faire.
-</p>
-<p>
-Rendez-vous tout d'abord dans les paramètres, Ajout/Suppression de programme et désinstallez le machin baptisé "
-<strong>EpicScale Application</strong>
-"
-</p>
-<p>
-Ensuite, ouvrez un explorateur de fichier en ayant pris soin d'activer l'affichage des fichiers cachés, et rendez-vous dans le répertoire
-<em>C:\ProgramData\</em>
-. Supprimez le sous-dossier
-<strong>EpicScale</strong>
-.
-</p>
-<p>
-Faites une vérif aussi dans les dossiers
-<em>C:\Program Files et C:\Program Files (x86)</em>
-et supprimez les répertoires EpicScale si vous en trouvez.
-</p>
-<p>
-Lancez ensuite l'éditeur de base de Registre (Exécuter -&gt; Regedit). Rendez-vous ensuite dans la clé de registre "
-<em>HKEY_CURRENT_USER\Software</em>
-" et supprimez "EpicScale".
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/epic.jpg">
-<img class="aligncenter size-full wp-image-59377" src="//korben.info/wp-content/uploads/2015/03/epic.jpg" alt="epic" width="537" height="239" />
-</a>
-</p>
-<p>
-Même chose ici :
-<em>
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
-</em>
-(et supprimez la clé EpicScale si elle s'y trouve).
-</p>
-<p>
-Voilà, en toute logique, vous devriez êtes débarrassé de ce truc.
-<a href="http://torrentfreak.com/utorrent-quietly-installs-riskware-bitcoin-miner-users-report-150306/">Source</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/utorrent-malware.html">
-Comment supprimer EpicScale ? (le malware présent dans uTorrent)
-</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/utorrent-malware.html/feed</wfw:commentRss>
-<slash:comments>38</slash:comments>
+<wfw:commentRss>
+http://www.presse-citron.net/aeromobil-des-voitures-volantes-sans-pilote-des-2017/feed/
+</wfw:commentRss>
+<slash:comments>3</slash:comments>
+Alors que des géants du web comme Google ou Apple, planchent depuis des années sur des voitures sans chauffeur, l’entreprise Aéromobil va proposer une voiture volante sans pilote dès 2017 !
 </item>
 <item>
-<title>La vie de Grace Hopper</title>
-<link>http://korben.info/grace-hopper.html</link>
-<comments>http://korben.info/grace-hopper.html#comments</comments>
-<pubDate>Tue, 10 Mar 2015 09:41:45 +0000</pubDate>
+<title>
+La classification PEGI va faire son entrée sur le Play Store de Google
+</title>
+<link>
+http://www.presse-citron.net/la-classification-pegi-va-faire-son-entree-sur-le-play-store-de-google/
+</link>
+<comments>
+http://www.presse-citron.net/la-classification-pegi-va-faire-son-entree-sur-le-play-store-de-google/#comments
+</comments>
+<pubDate>Wed, 18 Mar 2015 10:08:43 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Fredzone ]]>
 </dc:creator>
 <category>
-<![CDATA[ Culture Internet ]]>
+<![CDATA[ Applications ]]>
 </category>
 <category>
-<![CDATA[ Dessin ]]>
+<![CDATA[ Android ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59292</guid>
+<category>
+<![CDATA[ Google ]]>
+</category>
+<category>
+<![CDATA[ PEGI ]]>
+</category>
+<category>
+<![CDATA[ Play Store ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129064</guid>
 <description>
 <![CDATA[
-<p>
-Grace Hopper était une informaticienne qui a bossé pour la Marine Américaine (et IBM) et qui a inventé entre autres, le premier compilateur et ensuite langage de développement COBOL. Voici son histoire en BD. &#160; Photo et source
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/grace-hopper.html">La vie de Grace Hopper</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Afin de mieux protéger ses utilisateurs, Google a choisi de procéder à quelques ajustements sur sa boutique d’applications.
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-<strong>Grace Hopper</strong>
-était une informaticienne qui a bossé pour la Marine Américaine (et IBM) et qui a inventé entre autres, le premier compilateur et ensuite langage de développement COBOL.
-</p>
-<p>Voici son histoire en BD.</p>
-<p>&nbsp;</p>
-<p>
-<img class="aligncenter size-full wp-image-172719" src="//korben.info/wp-content/uploads/2015/03/grace8.jpg" alt="grace" width="600" height="1590" />
-<br />
-<img class="aligncenter size-full wp-image-172720" src="//korben.info/wp-content/uploads/2015/03/grace15.jpg" alt="grace1" width="600" height="2099" />
-<br />
-<img class="aligncenter size-full wp-image-172721" src="//korben.info/wp-content/uploads/2015/03/grace25.jpg" alt="grace2" width="600" height="2132" />
-<br />
-<img class="aligncenter size-full wp-image-172722" src="//korben.info/wp-content/uploads/2015/03/grace35.jpg" alt="grace3" width="600" height="1275" />
-</p>
-<p>
-<a href="http://fr.wikipedia.org/wiki/Fichier:Grace_Hopper_and_UNIVAC.jpg">Photo</a>
-et
-<a href="http://www.geeksaresexy.net/2015/03/08/the-story-of-grace-hopper-pioneering-computer-scientist-comic/">source</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/grace-hopper.html">La vie de Grace Hopper</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/grace-hopper.html/feed</wfw:commentRss>
-<slash:comments>14</slash:comments>
+<wfw:commentRss>
+http://www.presse-citron.net/la-classification-pegi-va-faire-son-entree-sur-le-play-store-de-google/feed/
+</wfw:commentRss>
+<slash:comments>0</slash:comments>
+Afin de mieux protéger ses utilisateurs, Google a choisi de procéder à quelques ajustements sur sa boutique d’applications.
 </item>
 <item>
-<title>Transformer un téléphone à cadran en téléphone VoIP</title>
-<link>http://korben.info/telephone-a-cadran.html</link>
-<comments>http://korben.info/telephone-a-cadran.html#comments</comments>
-<pubDate>Mon, 09 Mar 2015 16:13:11 +0000</pubDate>
+<title>
+Vous allez peut-être trouver votre prochain logement sur la Carte Immobilière
+</title>
+<link>
+http://www.presse-citron.net/vous-allez-peut-etre-trouver-votre-prochain-logement-sur-la-carte-immobiliere/
+</link>
+<comments>
+http://www.presse-citron.net/vous-allez-peut-etre-trouver-votre-prochain-logement-sur-la-carte-immobiliere/#comments
+</comments>
+<pubDate>Wed, 18 Mar 2015 09:41:47 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Fredzone ]]>
 </dc:creator>
 <category>
-<![CDATA[ DIY ]]>
+<![CDATA[ Web ]]>
 </category>
 <category>
-<![CDATA[ Infos ]]>
+<![CDATA[ annonce immobilière ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59279</guid>
+<category>
+<![CDATA[ Gestion immobilière ]]>
+</category>
+<category>
+<![CDATA[ Immobilier ]]>
+</category>
+<category>
+<![CDATA[ La Carte Immobilière ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129062</guid>
 <description>
 <![CDATA[
-<p>
-Si vous cherchez à recycler un vieux téléphone à cadran, le bidouilleur Voidon a mis en ligne une série de photos qui expliquent comment il a intégré dans ce genre de téléphone, un Raspberry Pi (en le reliant via le port GPIO) pour le transformer en téléphone VoIP. Pour rappel, le téléphone à cadran a [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/telephone-a-cadran.html">Transformer un téléphone à cadran en téléphone VoIP</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Marre des agences peu scrupuleuses et des sites moches et figés ? La Carte Immobilière devrait vous plaire.
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Si vous cherchez à recycler un vieux téléphone à cadran, le bidouilleur Voidon a mis en ligne
-<a href="http://imgur.com/a/HECDL#37" target="_blank">une série de photos</a>
-qui expliquent comment il a intégré dans ce genre de téléphone, un Raspberry Pi (en le reliant via le port GPIO) pour le transformer en téléphone VoIP.
-</p>
-<p>
-Pour rappel, le téléphone à cadran a été inventé en 1891 par Almon Brown Strowger et ce n'est qu'en 1904 que Bell System l'a introduit aux Etats Unis. Ça date !! Et c'est plutôt rigolo d'ailleurs, de voir la réaction d'une personne qui n'en a jamais vu. Ce n'est pas forcement intuitif et le cadran a été remplacé progressivement à partir des années 60 aux Etats-Unis (et un peu plus tard chez nous) par les téléphones à touches.
-</p>
-<p>
-Concernant le montage, le Rpi récupère les impulsions électriques du cadran ainsi que la voix grâce à une carte son externe USB. La sonnerie du téléphone quant à elle, est jouée par le speaker interne du Raspberry Pi.
-</p>
-<p>
-<a href="http://korben.info/wp-content/uploads/2015/03/rpi2.jpg">
-<img class="aligncenter size-full wp-image-59282" src="//korben.info/wp-content/uploads/2015/03/rpi2.jpg" alt="rpi2" width="650" height="367" />
-</a>
-</p>
-<p>
-Comme vous pouvez le voir sur cette photo, le câble RJ45 et le câble USB prennent beaucoup de place et compliquent l'assemblage.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/rpi1.jpg">
-<img class="aligncenter size-new-size wp-image-59281" src="//korben.info/wp-content/uploads/2015/03/rpi1-650x363.jpg" alt="rpi1" width="650" height="363" />
-</a>
-</p>
-<p>
-Il a donc dû remplacer le câble Ethernet par une mini clé WiFi et a soudé directement le câble USB sur le connecteur.
-</p>
-<p>
-Et voici le résultat final, le tout géré par
-<a href="https://github.com/hnesland/aselektriskbureau" target="_blank">un peu de code Python</a>
-:
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/rpi3.jpg">
-<img class="aligncenter size-new-size wp-image-59283" src="//korben.info/wp-content/uploads/2015/03/rpi3-650x365.jpg" alt="rpi3" width="650" height="365" />
-</a>
-</p>
-<p>
-C'est toujours aussi old school mais ça téléphone sur les Internet ;-) Je devrais d'ailleurs en récupérer un bientôt, du coup, je me tâte...
-</p>
-<p>
-<a href="http://hackaday.com/2015/03/09/convert-a-rotary-phone-to-voip-using-raspberry-pi/" target="_blank">Source</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/telephone-a-cadran.html">Transformer un téléphone à cadran en téléphone VoIP</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>http://korben.info/telephone-a-cadran.html/feed</wfw:commentRss>
+<wfw:commentRss>
+http://www.presse-citron.net/vous-allez-peut-etre-trouver-votre-prochain-logement-sur-la-carte-immobiliere/feed/
+</wfw:commentRss>
 <slash:comments>4</slash:comments>
+Marre des agences peu scrupuleuses et des sites moches et figés ? La Carte Immobilière devrait vous plaire.
 </item>
 <item>
-<title>Le site qui s’auto-supprime lorsque Google le trouve</title>
+<title>PayPal et Facebook sont maintenant concurrents</title>
 <link>
-http://korben.info/le-site-qui-sauto-supprime-lorsque-google-le-trouve.html
+http://www.presse-citron.net/paypal-et-facebook-sont-maintenant-concurrents/
 </link>
 <comments>
-http://korben.info/le-site-qui-sauto-supprime-lorsque-google-le-trouve.html#comments
+http://www.presse-citron.net/paypal-et-facebook-sont-maintenant-concurrents/#comments
 </comments>
-<pubDate>Mon, 09 Mar 2015 14:49:20 +0000</pubDate>
+<pubDate>Wed, 18 Mar 2015 04:25:56 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Setra ]]>
 </dc:creator>
 <category>
-<![CDATA[ Script ]]>
-</category>
-<guid isPermaLink="false">http://korben.info/?p=59274</guid>
-<description>
-<![CDATA[
-<p>
-Alors ça c'est rigolo... Si vous souhaitez jouer au chat et à la souris avec Google, voici un outil baptisé Unindexed qui va vous permettre de monter un site, qui sera automatiquement détruit dès que Google l'indexera. Il n'y a rien dans le robot.txt ou ailleurs qui empêche Google d'indexer le site mis à par [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/le-site-qui-sauto-supprime-lorsque-google-le-trouve.html">Le site qui s&rsquo;auto-supprime lorsque Google le trouve</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</description>
-<content:encoded>
-<![CDATA[
-<p>
-Alors ça c'est rigolo... Si vous souhaitez jouer au chat et à la souris avec Google, voici un outil baptisé
-<a href="https://github.com/mroth/unindexed">
-<strong>Unindexed</strong>
-</a>
-qui va vous permettre de monter un site, qui sera automatiquement détruit dès que Google l'indexera.
-</p>
-<p>
-Il n'y a rien dans le robot.txt ou ailleurs qui empêche Google d'indexer le site mis à par une balise NOARCHIVE qui empêche la mise en cache du contenu. Les visiteurs peuvent même laisser des commentaires qui subiront le même traitement et l'URL du site peut être générée automatiquement et utilisée comme variable d'environnement.
-</p>
-<p>
-Pour son test, le développeur de ce code a mis en place un Redis qui stocke uniquement en mémoire vive le contenu du site via une partition chiffrée sur son ordinateur qui a été supprimée juste après la mise en ligne.
-</p>
-<p>
-Une fois que le logiciel découvre que le contenu a été indexé par Google, il vide la mémoire et plouf, plus rien n'est en ligne. Lors de son test initial, Google a mis 22 jours avant d'indexer le contenu.
-</p>
-<p>
-L'idée n'est pas mauvaise même s'il est plus simple de balancer un noindex. En tout cas, ça devrait intéresser tous ceux qui veulent monter des sites capables de passer sous les radars et qui bougent tout le temps.
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/le-site-qui-sauto-supprime-lorsque-google-le-trouve.html">Le site qui s&rsquo;auto-supprime lorsque Google le trouve</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
-<wfw:commentRss>
-http://korben.info/le-site-qui-sauto-supprime-lorsque-google-le-trouve.html/feed
-</wfw:commentRss>
-<slash:comments>12</slash:comments>
-</item>
-<item>
-<title>Petit conseil aux geeks qui voyagent</title>
-<link>http://korben.info/petit-conseil-aux-geeks-qui-voyagent.html</link>
-<comments>
-http://korben.info/petit-conseil-aux-geeks-qui-voyagent.html#comments
-</comments>
-<pubDate>Mon, 09 Mar 2015 11:27:39 +0000</pubDate>
-<dc:creator>
-<![CDATA[ Korben ]]>
-</dc:creator>
-<category>
-<![CDATA[ Liberté ]]>
+<![CDATA[ Réseaux sociaux ]]>
 </category>
 <category>
-<![CDATA[ Voyage ]]>
+<![CDATA[ Facebook ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59268</guid>
+<category>
+<![CDATA[ Messenger ]]>
+</category>
+<category>
+<![CDATA[ Paypal ]]>
+</category>
+<category>
+<![CDATA[ transfert d'argent ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129043</guid>
 <description>
 <![CDATA[
-<p>
-Vous l'avez tous lu dans la presse, un de nos cousins Québécois risque jusqu'à 25 000 dollars d'amende et une peine de prison, car il a refusé de donner à un douanier, le mot de passe de son téléphone portable à l'aéroport d'Halifax. Ça aurait pu être vous, ça aurait pu être moi. Depuis le [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/petit-conseil-aux-geeks-qui-voyagent.html">Petit conseil aux geeks qui voyagent</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Le numéro un des réseaux sociaux vient d’officialiser sa fonctionnalité de micro-transactions. PayPal a de quoi s’inquiéter.
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Vous l'avez tous lu dans la presse, un de nos cousins Québécois
-<a href="http://www.numerama.com/magazine/32417-vous-allez-au-canada-les-douanes-peuvent-exiger-vos-mots-de-passe.html">risque</a>
-jusqu'à 25 000 dollars d'amende et une peine de prison, car il a refusé de donner à un douanier, le mot de passe de son téléphone portable à l'aéroport d'Halifax.
-</p>
-<p>
-Ça aurait pu être vous, ça aurait pu être moi. Depuis le 11 septembre 2001, de toute façon, les voyageurs n'ont plus vraiment de droits et doivent se soumettre à tous les excentricités des lois sécuritaires. Les agents des douanes canadiennes ont parfaitement le droit d'examiner les objets électroniques que les personnes transportent et c'est pour cela que les appareils doivent être allumés et fonctionnels.
-</p>
-<p>
-C'est le cas au Canada, mais dans d'autres pays comme les États-Unis et même si ça ne m'est jamais arrivé, sur le principe c'est pas cool.
-</p>
-<p>
-Alors que faire ? Dire "
-<em>
-Amen, cher douanier, vous pouvez regarder toutes mes photos perso et lire mes emails !
-</em>
-"
-</p>
-<p>
-Ou dire "
-<em>
-Va te faire foutre douanier voyeur, j'te connais pas et j'veux pas que tu t'intrusionnes toi-même dans ma vie privée !
-</em>
-"
-</p>
-<p>
-J'avoue l'option 2 est celle que je préfère, mais elle est risquée, car entraver le travail d'un douanier peut vous coûter cher même si les Droits de l'Homme et le respect de la vie privée est à priori en votre faveur. Dans tous les cas, résister vous gâchera vos vacances ;-).
-</p>
-<p>
-Alors que faire ? Et bien personnellement, je ne me prends plus la tête quand je voyage. J'essaye tout d'abord de voyager léger, c'est à dire sans ordinateur. Ça fait déjà ça de moins à trimballer. Mais si je ne peux pas faire autrement, j'embarque un vieux Chromebook que je réinitialise juste avant de partir et que je connecte sur un compte Google bidon.
-</p>
-<p>
-Une fois les douanes passées, je peux alors recharger mes datas via le net, en prenant soin de passer par
-<a href="http://korben.info/installer-openvpn.html">mon petit VPN d'amour</a>
-. Et si vous avez besoin d'aller plus loin que ce que permet ChromeOS, y'a même moyen
-<a href="http://korben.info/utiliser-linux-dans-un-onglet-de-votre-chromebook.html">d'installer Linux dessus après coup</a>
-. Et j'évite d'embarquer des clés USB avec un OS bootable du genre de Tails, car là, c'est suspect à mort ;-).
-</p>
-<p>
-En ce qui concerne le téléphone portable, c'est pareil. Comme c'est un Android, je le réinitialise avec le même compte Google bidon que j'utilise pour le ChromeOS. Le téléphone reste fonctionnel même si rien n'est configuré dessus à part une boite mail et mes contacts. Et si votre stress, c'est de ne pas pouvoir regarder des films sur votre téléphone ou votre ordinateur, franchement, y'a rien qui vous en empêche. Vous pouvez soit les récupérer en 4G / Wifi (avec VPN) dans les zones de transit soit embarquer avec dans l'avion et réinitialiser votre ordinateur lorsque vous débarquez, avant la douane.
-</p>
-<p>
-L'idée n'est pas d'être NSA-Proof ou Forensics-Proof. C'est juste de pouvoir dire "
-<em>
-Oui Monsieur Relou, je vous donne mon mot de passe sans problème
-</em>
-" et se plier aux exigences des exigeants sans entraver le travail de n'importe quel glandu.
-</p>
-<p>Bref, ça vaut que ça vaut, à vous de voir maintenant.</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/petit-conseil-aux-geeks-qui-voyagent.html">Petit conseil aux geeks qui voyagent</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
 <wfw:commentRss>
-http://korben.info/petit-conseil-aux-geeks-qui-voyagent.html/feed
+http://www.presse-citron.net/paypal-et-facebook-sont-maintenant-concurrents/feed/
 </wfw:commentRss>
-<slash:comments>56</slash:comments>
+<slash:comments>10</slash:comments>
+Le numéro un des réseaux sociaux vient d’officialiser sa fonctionnalité de micro-transactions. PayPal a de quoi s’inquiéter.
 </item>
 <item>
-<title>L’adresse email de son FAI c’est le mal !</title>
+<title>
+Utiliser sa télécommande pour contrôler le Chromecast, c’est possible
+</title>
 <link>
-http://korben.info/ladresse-email-de-son-fai-cest-le-mal.html
+http://www.presse-citron.net/utiliser-sa-telecommande-pour-controler-le-chromecast-cest-possible/
 </link>
 <comments>
-http://korben.info/ladresse-email-de-son-fai-cest-le-mal.html#comments
+http://www.presse-citron.net/utiliser-sa-telecommande-pour-controler-le-chromecast-cest-possible/#comments
 </comments>
-<pubDate>Mon, 09 Mar 2015 10:19:05 +0000</pubDate>
+<pubDate>Wed, 18 Mar 2015 03:37:50 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Setra ]]>
 </dc:creator>
 <category>
-<![CDATA[ FAI ]]>
+<![CDATA[ Tech & Gadgets ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59266</guid>
+<category>
+<![CDATA[ Chromecast ]]>
+</category>
+<category>
+<![CDATA[ Google ]]>
+</category>
+<category>
+<![CDATA[ télécommande ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129039</guid>
 <description>
 <![CDATA[
-<p>
-Un truc que vous savez surement si vous avez déjà changé de FAI dans votre vie, c'est qu'il ne faut jamais "construire" sa vie numérique avec son email @monfai.fr . En effet, en cas de résiliation, si vous avez un email @orange.fr, @bbox.fr ou @jesaispasquoi.fr, vous perdrez aussi votre email dans la foulée. Et si [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/ladresse-email-de-son-fai-cest-le-mal.html">L&rsquo;adresse email de son FAI c&rsquo;est le mal !</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Une petite fonctionnalité qui fera plaisir aux utilisateurs du petit dongle de streaming de Google.
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Un truc que vous savez surement si vous avez déjà changé de FAI dans votre vie, c'est qu'il ne faut jamais "construire" sa vie numérique avec son email @monfai.fr .
-</p>
-<p>
-En effet, en cas de résiliation, si vous avez un email @orange.fr, @bbox.fr ou @jesaispasquoi.fr, vous perdrez aussi votre email dans la foulée. Et si vous avez configuré tous vos comptes (Facebook, Twitter, Dailymotion, Le bon coin...etc.) avec cette boite et bien vous l'aurez dans l'os le jour où vous aurez besoin de récupérer un mot de passe perdu ou faire confirmer votre compte. J'en ai vu plein venir chouiner auprès de leur ancien FAI, car ils n'avaient pas percuté que leur boite mail aller sauter après résiliation et malheureusement, contrairement aux numéros de téléphone, il n'existe pas de "portabilité des adresses emails".
-</p>
-<p>
-La première précaution à prendre est donc de
-<strong>ne JAMAIS utiliser pour de vrai l'adresse email de son FAI</strong>
-. C'est l'adresse qu'il faut filer aux spammeurs et aux relous et basta. (Sans compter qu'il est possible d'accèder aux boites mails Orange sans identifiants. Il suffit d'être connecté sur la livebox du propriétaire.)
-</p>
-<p>
-Mais il y a un truc amusant à savoir. Après résiliation de votre abonnement ADSL Orange, vos adresses email au format nom.prenom@orange.fr sont automatiquement réattribuées aux nouveaux abonnés qui portent le même nom que vous. En réalité, même pas besoin que ce soit votre "nom officiel" dans l'email, car chez Orange, vous pouvez créer plusieurs boites mails au nom de qui vous voulez. C'est moche et ça ouvre des tas de possibilités aux scripts kiddies et escrocs en tout genre.
-</p>
-<p>
-Sylvain, lecteur de Korben.info en a fait l'expérience récemment. Après avoir pris son abonnement chez Orange, il s'est rendu compte qu'il ne pouvait pas créer de compte sur Facebook, car son email @orange.fr était "déjà utilisé". Il a été cool et a contacté l'ancien propriétaire, mais aurait pu la jouer fourbe en faisant une demande de mot de passe perdu sur tous les comptes web créés avec cette boite et faire beaucoup de mal à l'identité numérique de son homonyme. Ici, il l'a expérimenté avec Orange mais je pense que c'est pareil chez tous les FAI ou presque.
-</p>
-<p>
-Je ne vous apprends rien, mais une petite piqure de rappel, ça ne fait jamais de mal.
-</p>
-<p>
-Enregistrez-le une fois pour toutes :  Utiliser la boite mail de son FAI, c'est mal ;-)
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/ladresse-email-de-son-fai-cest-le-mal.html">L&rsquo;adresse email de son FAI c&rsquo;est le mal !</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
 <wfw:commentRss>
-http://korben.info/ladresse-email-de-son-fai-cest-le-mal.html/feed
+http://www.presse-citron.net/utiliser-sa-telecommande-pour-controler-le-chromecast-cest-possible/feed/
 </wfw:commentRss>
-<slash:comments>71</slash:comments>
+<slash:comments>1</slash:comments>
+Une petite fonctionnalité qui fera plaisir aux utilisateurs du petit dongle de streaming de Google.
 </item>
 <item>
-<title>Quadriplégique et pilote de chasse</title>
-<link>http://korben.info/quadriplegique-et-pilote-de-chasse.html</link>
+<title>
+Apple devrait bientôt racheter votre vieux smartphone Android ou BlackBerry
+</title>
+<link>
+http://www.presse-citron.net/apple-devrait-bientot-racheter-votre-vieux-smartphone-android-ou-blackberry/
+</link>
 <comments>
-http://korben.info/quadriplegique-et-pilote-de-chasse.html#comments
+http://www.presse-citron.net/apple-devrait-bientot-racheter-votre-vieux-smartphone-android-ou-blackberry/#comments
 </comments>
-<pubDate>Wed, 04 Mar 2015 15:45:32 +0000</pubDate>
+<pubDate>Tue, 17 Mar 2015 17:04:40 +0000</pubDate>
 <dc:creator>
-<![CDATA[ Korben ]]>
+<![CDATA[ Manu ]]>
 </dc:creator>
 <category>
-<![CDATA[ Aéronautique ]]>
+<![CDATA[ Smartphones ]]>
 </category>
-<guid isPermaLink="false">http://korben.info/?p=59190</guid>
+<category>
+<![CDATA[ Android ]]>
+</category>
+<category>
+<![CDATA[ Apple ]]>
+</category>
+<category>
+<![CDATA[ Blackberry ]]>
+</category>
+<category>
+<![CDATA[ rachat ]]>
+</category>
+<category>
+<![CDATA[ reprise ]]>
+</category>
+<category>
+<![CDATA[ smartphone ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129028</guid>
 <description>
 <![CDATA[
-<p>
-Dans la catégorie "On n'arrête pas le progrès" voici une news qui devrait faire rêver tous ceux qui s'intéressent à l'aéronautique. Jan Scheuermann est une femme de 55 ans qui est quadriplégiques(paralysée des 4 membres) qui depuis plusieurs années travaille avec le laboratoire de recherche avancé du Pentagone (DARPA). Jan fait donc partie du programme [&#8230;]
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/quadriplegique-et-pilote-de-chasse.html">Quadriplégique et pilote de chasse</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
+Apple dispose d'un programme de reprise d'ancien matériel Apple pour l'achat d'un nouvel équipement, mais il devrait l'étendre à d'autres marques.
 ]]>
 </description>
-<content:encoded>
-<![CDATA[
-<p>
-Dans la catégorie "On n'arrête pas le progrès" voici une news qui devrait faire rêver tous ceux qui s'intéressent à l'aéronautique.
-</p>
-<p>
-Jan Scheuermann est une femme de 55 ans qui est quadriplégiques(paralysée des 4 membres) qui depuis plusieurs années travaille avec le laboratoire de recherche avancé du Pentagone (DARPA).
-</p>
-<p>
-Jan fait donc partie du programme robotique et les scientifiques avec lesquels elle travaille, lui ont implanté plusieurs électrodes sur le cortex moteur de l'hémisphère cérébral gauche. Si vous n'avez pas votre Mappy sous la main, c'est ici (en rouge):
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/minus.jpg">
-<img class="aligncenter size-full wp-image-59191" src="//korben.info/wp-content/uploads/2015/03/minus.jpg" alt="minus" width="384" height="376" />
-</a>
-</p>
-<p>
-Suite à ça, en 2012, elle a commencé à s'exercer au contrôle d'un bras robotique avec son cerveau. Et depuis, ça a bien progressé, aussi bien du côté de la technique, que de son côté personnel puisqu'elle est maintenant capable de piloter un chasseur F-35 (en simulateur uniquement pour le moment) rien que par la pensée.
-</p>
-<p style="text-align: center;">
-<a href="http://korben.info/wp-content/uploads/2015/03/j47g66ajkegnczrc81yt.jpg">
-<img class="aligncenter size-full wp-image-59192" src="//korben.info/wp-content/uploads/2015/03/j47g66ajkegnczrc81yt.jpg" alt="j47g66ajkegnczrc81yt" width="636" height="425" />
-</a>
-</p>
-<p>
-Attention, je ne suis pas en train de dire qu'elle "pense" à tirer ou à pousser le manche du simulateur... Non, non... Elle contrôle directement l'avion, comme si ce dernier était une extension de son corps.
-</p>
-<p>
-Le but pour le DARPA (et donc l'armée américaine) est de permettre à ses militaires d'incarner les robots ou les machines qui iront sur les zones de combat. Le pilote de drone ne sera plus un simple "joueur" mais deviendra (en tout cas par la pensée) LE drone.
-</p>
-<p>
-Quand le pilote pensera "
-<em>Va à droite</em>
-", le drone ira à droite. Et quand il pensera, "
-<em>J'ai envie d'en lâcher une grosse</em>
-", le drone en lâchera une grosse. Mais jamais sur la tête des chtis n'enfants innocents. Non, non, ça jamais, hein.
-</p>
-<p>
-Blague à part, c'est une innovation technologique importante et je vous passe toutes les applications que cela pourrait aussi avoir dans le civil. Automobile, loisirs, aéronautique, industrie...etc.
-</p>
-<p>En tout cas, sachez-le, c'est sur la bonne voie.</p>
-<p>
-<a href="http://sploid.gizmodo.com/mind-control-breakthrough-quadriplegic-woman-flies-f-3-1689274525">Source</a>
-</p>
-<p>
-Cet article merveilleux et sans aucun égal intitulé :
-<a rel="nofollow" href="http://korben.info/quadriplegique-et-pilote-de-chasse.html">Quadriplégique et pilote de chasse</a>
-; a été publié sur
-<a rel="nofollow" href="http://korben.info">Korben</a>
-, le seul site qui t'aime plus fort que tes parents.
-</p>
-]]>
-</content:encoded>
 <wfw:commentRss>
-http://korben.info/quadriplegique-et-pilote-de-chasse.html/feed
+http://www.presse-citron.net/apple-devrait-bientot-racheter-votre-vieux-smartphone-android-ou-blackberry/feed/
 </wfw:commentRss>
-<slash:comments>18</slash:comments>
+<slash:comments>7</slash:comments>
+Apple dispose d'un programme de reprise d'ancien matériel Apple pour l'achat d'un nouvel équipement, mais il devrait l'étendre à d'autres marques.
+</item>
+<item>
+<title>
+Steve Jobs : Man in the Machine, un documentaire qui casse l’image du fondateur d’Apple
+</title>
+<link>
+http://www.presse-citron.net/steve-jobs-man-in-the-machine-un-documentaire-qui-casse-image-du-fondateur-apple/
+</link>
+<comments>
+http://www.presse-citron.net/steve-jobs-man-in-the-machine-un-documentaire-qui-casse-image-du-fondateur-apple/#comments
+</comments>
+<pubDate>Tue, 17 Mar 2015 17:04:22 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Manu ]]>
+</dc:creator>
+<category>
+<![CDATA[ Lifestyle ]]>
+</category>
+<category>
+<![CDATA[ Apple ]]>
+</category>
+<category>
+<![CDATA[ documentaire ]]>
+</category>
+<category>
+<![CDATA[ man-in-the-machine ]]>
+</category>
+<category>
+<![CDATA[ Steve Jobs ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129022</guid>
+<description>
+<![CDATA[
+Le dernier film d'Alex Gibney dresse un portrait plutôt sombre de celui qui reste comme un inventeur de génie et un visionnaire.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/steve-jobs-man-in-the-machine-un-documentaire-qui-casse-image-du-fondateur-apple/feed/
+</wfw:commentRss>
+<slash:comments>11</slash:comments>
+Le dernier film d'Alex Gibney dresse un portrait plutôt sombre de celui qui reste comme un inventeur de génie et un visionnaire.
+</item>
+<item>
+<title>
+L’effet Snowden sur les internautes américains… et sur vous ?
+</title>
+<link>
+http://www.presse-citron.net/leffet-snowden-sur-les-internautes-americains-et-sur-vous/
+</link>
+<comments>
+http://www.presse-citron.net/leffet-snowden-sur-les-internautes-americains-et-sur-vous/#comments
+</comments>
+<pubDate>Tue, 17 Mar 2015 13:12:26 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Manu ]]>
+</dc:creator>
+<category>
+<![CDATA[ Web ]]>
+</category>
+<category>
+<![CDATA[ affaire-snowden ]]>
+</category>
+<category>
+<![CDATA[ espionnage ]]>
+</category>
+<category>
+<![CDATA[ habitudes-de-navigation ]]>
+</category>
+<category>
+<![CDATA[ sondage ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129015</guid>
+<description>
+<![CDATA[
+Un nombre toujours plus grand d’internautes américains se disent plus attentifs à la protection de leur vie privée et de leurs données, depuis le scandale de l’affaire Snowden.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/leffet-snowden-sur-les-internautes-americains-et-sur-vous/feed/
+</wfw:commentRss>
+<slash:comments>2</slash:comments>
+Un nombre toujours plus grand d’internautes américains se disent plus attentifs à la protection de leur vie privée et de leurs données, depuis le scandale de l’affaire Snowden.
+</item>
+<item>
+<title>
+SecuTablet : le grand retour de BlackBerry dans l’univers des tablettes
+</title>
+<link>
+http://www.presse-citron.net/secutablet-le-grand-retour-de-blackberry-dans-lunivers-des-tablettes/
+</link>
+<comments>
+http://www.presse-citron.net/secutablet-le-grand-retour-de-blackberry-dans-lunivers-des-tablettes/#comments
+</comments>
+<pubDate>Tue, 17 Mar 2015 10:51:56 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Manu ]]>
+</dc:creator>
+<category>
+<![CDATA[ Tablettes ]]>
+</category>
+<category>
+<![CDATA[ Blackberry ]]>
+</category>
+<category>
+<![CDATA[ cebit-2015 ]]>
+</category>
+<category>
+<![CDATA[ SecuTablet ]]>
+</category>
+<category>
+<![CDATA[ tablette ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=128863</guid>
+<description>
+<![CDATA[
+Le géant BlackBerry revient semble-t-il dans l’univers des tablettes, espérons pour la marque que la SecuTablet ne subisse pas le même échec que sa dernière tentative.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/secutablet-le-grand-retour-de-blackberry-dans-lunivers-des-tablettes/feed/
+</wfw:commentRss>
+<slash:comments>3</slash:comments>
+Le géant BlackBerry revient semble-t-il dans l’univers des tablettes, espérons pour la marque que la SecuTablet ne subisse pas le même échec que sa dernière tentative.
+</item>
+<item>
+<title>
+Mixfader : le tout premier mixeur DJ connecté au monde, par DJIT
+</title>
+<link>
+http://www.presse-citron.net/mixfader-le-tout-premier-mixeur-dj-connecte-au-monde-par-djit/
+</link>
+<comments>
+http://www.presse-citron.net/mixfader-le-tout-premier-mixeur-dj-connecte-au-monde-par-djit/#comments
+</comments>
+<pubDate>Tue, 17 Mar 2015 09:26:55 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Fredzone ]]>
+</dc:creator>
+<category>
+<![CDATA[ Objets connectés ]]>
+</category>
+<category>
+<![CDATA[ DJIT ]]>
+</category>
+<category>
+<![CDATA[ edjing ]]>
+</category>
+<category>
+<![CDATA[ Mixfader ]]>
+</category>
+<guid isPermaLink="false">http://www.presse-citron.net/?p=129009</guid>
+<description>
+<![CDATA[
+L’éditeur d’edjing a profité du SXSW pour lever le voile sur un appareil connecté qui risque de faciliter la vie de tous les DJs, professionnels et amateurs.
+]]>
+</description>
+<wfw:commentRss>
+http://www.presse-citron.net/mixfader-le-tout-premier-mixeur-dj-connecte-au-monde-par-djit/feed/
+</wfw:commentRss>
+<slash:comments>3</slash:comments>
+L’éditeur d’edjing a profité du SXSW pour lever le voile sur un appareil connecté qui risque de faciliter la vie de tous les DJs, professionnels et amateurs.
 </item>
 </channel>
 </rss>
-<!--  Dynamic page generated in 1.876 seconds.  -->
-<!--
- Cached page generated by WP-Super-Cache on 2015-03-19 13:49:28 
--->
-<!--  Compression = gzip  -->

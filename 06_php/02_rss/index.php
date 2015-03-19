@@ -1,7 +1,6 @@
 <?php
 
-
-	$article1 =array(
+	/*$article1 =array(
 		"title" => "Que diriez-vous d’explorer le centre de la Terre depuis votre navigateur ?",
 		"link" => "http://www.presse-citron.net/que-diriez-vous-dexplorer-le-centre-de-la-terre-depuis-votre-navigateur/",
 		"comments" => "http://www.presse-citron.net/que-diriez-vous-dexplorer-le-centre-de-la-terre-depuis-votre-navigateur/#comments",
@@ -18,7 +17,7 @@
 	$article2['pubDate'] = "Wed, 18 Mar 2015 22:30:30 +0000";
 	$article2['guid'] = "http://www.presse-citron.net/?p=129079";
 	$article2['description'] = "Internet Explorer, le navigateur qui fut roi pendant des années devrait disparaître à petit feu et être remplacé par un nouveau navigateur.";
-	$article2['wdw:commentRss'] = "http://www.presse-citron.net/microsoft-annonce-la-mort-dinternet-explorer-son-celebre-navigateur/feed/";
+	$article2['wdw:commentRss'] = "http://www.presse-citron.net/microsoft-annonce-la-mort-dinternet-explorer-son-celebre-navigateur/feed/";*/
 
 	function convertArticleToList($article){
 		$list = '<ul>';
@@ -43,9 +42,11 @@
 	}
 
 	$wantedProperties = array('title', 'description', 'pubDate');
-	echo convertArticleToTable($article2, $wantedProperties);
+
+	foreach (simplexml_load_file('news.rss')->channel->item as $key => $value) {
+		echo convertArticleToTable($value, $wantedProperties);
+		echo '<hr>';
+	}
 
 		
-	
-
 ?>
