@@ -17,10 +17,8 @@
 	$article2['comments'] = "http://www.presse-citron.net/microsoft-annonce-la-mort-dinternet-explorer-son-celebre-navigateur/#comments";
 	$article2['pubDate'] = "Wed, 18 Mar 2015 22:30:30 +0000";
 	$article2['guid'] = "http://www.presse-citron.net/?p=129079";
-	$article2['description'] = "<![CDATA[Internet Explorer, le navigateur qui fut roi pendant des années devrait disparaître à petit feu et être remplacé par un nouveau navigateur.]]>";
+	$article2['description'] = "Internet Explorer, le navigateur qui fut roi pendant des années devrait disparaître à petit feu et être remplacé par un nouveau navigateur.";
 	$article2['wdw:commentRss'] = "http://www.presse-citron.net/microsoft-annonce-la-mort-dinternet-explorer-son-celebre-navigateur/feed/";
-
-
 
 	function convertArticleToList($article){
 		$list = '<ul>';
@@ -28,8 +26,26 @@
 			$list .= '<li>'.$key.' : '.$value.'</li>';
 		}
 		return $list .= '</ul>';
-	};
+	}
 
-	echo (convertArticleToList($article2));
+	function convertArticleToTable($article, $wantedProperties){
+		$table = '<table>';
+		foreach ($article as $key => $value) {
+			if(in_array($key, $wantedProperties)){
+				$table .= '<tr>
+							<td>'.$key.'</td>
+							<td>'.$value.'</td>
+							</tr>'
+				;
+			}
+		}
+		return $table .= '</table>';
+	}
+
+	$wantedProperties = array('title', 'description', 'pubDate');
+	echo convertArticleToTable($article2, $wantedProperties);
+
+		
+	
 
 ?>
