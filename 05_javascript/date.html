@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>date</title>
+	<script>
+		var today = new Date();
+		var y2k = new Date(2000,10,1);
+		
+		console.info(today.getFullYear()+'-'+today.getMonth()+'-'+today.getDay()+' '+today.getHours()+':'+today.getMinutes());
+		console.info(y2k.getFullYear()+'-'+y2k.getMonth()+'-'+y2k.getDay());
+
+		y2k.setFullYear(3000);
+		console.info(y2k.getFullYear()+'-'+y2k.getMonth()+'-'+y2k.getDay());
+
+		if(y2k.getTime() > today.getTime())
+			console.warn('It\'s alive !! ');
+
+
+		var november = new Date(2010,10,3),
+			newMonth = november.getMonth()+4;
+
+		november.setMonth(newMonth);
+		console.log(november);
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
