@@ -33,9 +33,9 @@ if($_GET['prenom']&&$_GET['nom']){
 
 	<form action="post.php" method="post">
 		<?php if($errorNom){ echo '<p class="error">Merci de renseigner le champ nom</p>'; } ?>
-		<label for="nom">Nom</label><input type="text" name="nom" id="nom" ><br/>
+		<label for="nom">Nom</label><input type="text" name="nom" id="nom" required><br/>
 		<?php if($errorPrenom){ echo '<p class="error">Merci de renseigner le champ prénom</p>'; } ?>
-		<label for="prenom">Prénom</label> <input type="text" name="prenom" id="prenom" ><br/>
+		<label for="prenom">Prénom</label> <input type="text" name="prenom" id="prenom" required><br/>
 		<input type="submit" name="submit">
 	</form>
 
