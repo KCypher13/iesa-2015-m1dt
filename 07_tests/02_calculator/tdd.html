@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TDD</title>
+	<link rel="stylesheet" href="../qunit-1.17.1.css">
+	<script src="../qunit-1.17.1.js"></script>
+</head>
+<body>
+	<script>
+	QUnit.test("That Addition succeed",
+		function(assert){ 
+			assert.equal(add(5,8),13,"5+8");
+			assert.equal(add(10,5),15,"10+5");
+		}
+	);
+
+	function add(nbr1,nbr2){
+		return nbr1+nbr2;
+	}
+
+
+	</script>
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+</body>
+</html>
