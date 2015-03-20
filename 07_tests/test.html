@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="qunit-1.17.1.css">
+	<script src="qunit-1.17.1.js"></script>
+</head>
+<body>
+	<script>
+	QUnit.test("test non égalité",
+		function(assert){ 
+			assert.notEqual(1,2,"1 expected");
+		}
+	);
+
+	QUnit.test("test égalité",
+		function(assert){ 
+			assert.Equal(2,2,"1 expected");
+		}
+	);
+
+
+	</script>
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+</body>
+</html>
