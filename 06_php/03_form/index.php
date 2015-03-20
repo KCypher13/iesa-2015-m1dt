@@ -10,6 +10,9 @@ if($_GET['prenom']&&$_GET['nom']){
 		$error++;
 	}
 }
+else{
+	$error++;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
