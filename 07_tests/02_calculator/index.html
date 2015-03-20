@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../qunit-1.17.1.css">
+	<script src="../qunit-1.17.1.js"></script>
+</head>
+<body>
+	<script>
+	QUnit.test("That Addition succeed",
+		function(assert){ 
+			assert.equal(add(5,8),13,"5+8 expected");
+		}
+	);
+	QUnit.test("Minus",
+		function(assert){ 
+			assert.equal(minus(10,5),5,"10-5 expected");
+		}
+	);
+	QUnit.test("Multiply",
+		function(assert){ 
+			assert.equal(multiply(6,2),12,"6*2 expected");
+		}
+	);
+	QUnit.test("Devide",
+		function(assert){ 
+			assert.equal(devide(84,2),42,"84/2 expected");
+		}
+	);
+		function add(one, two){
+			return one+two;
+		}
+		function minus(one, two){
+			return one-two;
+		}
+		function multiply(one, two){
+			return one*two;
+		}
+		function devide(one, two){
+			return one/two;
+		}
+
+		function calcul(one, two, type){
+			switch(type){
+				case add:
+					return add(one, two);
+					break;
+				case minus:
+					return minus(one, two);
+					break;
+				case multiply:
+					return multiply(one, two);
+					break;
+				case devide:
+					return devide(one, two);
+					break;
+			}
+		}
+
+	</script>
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+</body>
+</html>
