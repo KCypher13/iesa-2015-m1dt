@@ -5,7 +5,9 @@
 	<title>date</title>
 	<script>
 		var today = new Date();
+		var today2 = new Date();
 		var y2k = new Date(2000,10,1);
+		
 		
 		console.info(today.getFullYear()+'-'+today.getMonth()+'-'+today.getDay()+' '+today.getHours()+':'+today.getMinutes());
 		console.info(y2k.getFullYear()+'-'+y2k.getMonth()+'-'+y2k.getDay());
@@ -14,14 +16,29 @@
 		console.info(y2k.getFullYear()+'-'+y2k.getMonth()+'-'+y2k.getDay());
 
 		if(y2k.getTime() > today.getTime())
-			console.warn('It\'s alive !! ');
+			console.warn('>');
 
+		if(today.getTime() == today2.getTime())
+			console.warn('==');
+
+		if(today.getTime() === today2.getTime())
+			console.warn('===');
 
 		var november = new Date(2010,10,3),
 			newMonth = november.getMonth()+4;
 
 		november.setMonth(newMonth);
 		console.log(november);
+
+		var date1 = new Date(2000,10,7, 2, 45);
+		var date2 = new Date(2000,10,7, 3, 23);
+
+		var date1String = ""+date1.getFullYear()+ date1.getMonth()+ date1.getDay();
+		var date2String = ""+date2.getFullYear()+date2.getMonth()+date2.getDay();
+
+		if(date1String == date2String){
+			console.log('same date');
+		}
 
 
 	</script>
